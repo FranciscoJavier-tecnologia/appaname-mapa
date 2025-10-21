@@ -1,0 +1,30 @@
+[
+  {
+    "issuer_id": "banco_chile",
+    "issuer_name": "Banco de Chile",
+    "source_type": "WEB",
+    "source_url": "https://portales.bancochile.cl/beneficios",
+    "parser_strategy": "bancochile_v1"
+  },
+  {
+    "issuer_id": "caja_los_andes",
+    "issuer_name": "Caja Los Andes",
+    "source_type": "WEB",
+    "source_url": "https://masbeneficios.cajalosandes.cl/convenios",
+    "parser_strategy": "cajalosandes_v1"
+  },
+  {
+    "issuer_id": "cmr_falabella",
+    "issuer_name": "CMR Falabella",
+    "source_type": "WEB",
+    "source_url": "https://www.bancofalabella.cl/descuentos",
+    "parser_strategy": "cmr_v1"
+  },
+  {
+    "issuer_id": "copec_app",
+    "issuer_name": "Copec",
+    "source_type": "API",
+    "source_url": "https://api.copec.cl/v2/promociones",
+    "parser_strategy": "copec_api_v2"
+  }
+]
