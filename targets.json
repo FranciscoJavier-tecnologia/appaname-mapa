@@ -1,30 +1,309 @@
 [
   {
-    "issuer_id": "banco_chile",
-    "issuer_name": "Banco de Chile",
-    "source_type": "WEB",
-    "source_url": "https://portales.bancochile.cl/beneficios",
-    "parser_strategy": "bancochile_v1"
+    "segment": "Bancos & Tarjetas",
+    "issuer_id": "banco_estado",
+    "issuer_name": "BancoEstado",
+    "parser_strategy": "bancoestado_v1",
+    "sources": [
+      { "source_id": "best_home", "url": "https://www.bancoestado.cl/content/bancoestado-public/cl/es/home/productos/beneficios.html", "category_hint": "General" }
+    ]
   },
   {
+    "segment": "Bancos & Tarjetas",
+    "issuer_id": "banco_de_chile",
+    "issuer_name": "Banco de Chile",
+    "parser_strategy": "bancochile_v1",
+    "sources": [
+      { "source_id": "bch_home", "url": "https://portales.bancochile.cl/beneficios", "category_hint": "General" }
+    ]
+  },
+  {
+    "segment": "Bancos & Tarjetas",
+    "issuer_id": "santander",
+    "issuer_name": "Banco Santander Chile",
+    "parser_strategy": "santander_v1",
+    "sources": [
+      { "source_id": "sant_home", "url": "https://banco.santander.cl/beneficios", "category_hint": "General" }
+    ]
+  },
+  {
+    "segment": "Bancos & Tarjetas",
+    "issuer_id": "bci",
+    "issuer_name": "BCI",
+    "parser_strategy": "bci_v1",
+    "sources": [
+      { "source_id": "bci_home", "url": "https://www.bci.cl/beneficios", "category_hint": "General" },
+      { "source_id": "bci_lider", "url": "https://www.tarjetaliderbci.cl/beneficios/", "category_hint": "Lider BCI" }
+    ]
+  },
+  {
+    "segment": "Bancos & Tarjetas",
+    "issuer_id": "scotiabank",
+    "issuer_name": "Scotiabank Chile",
+    "parser_strategy": "scotiabank_v1",
+    "sources": [
+      { "source_id": "scot_home", "url": "https://www.scotiabankchile.cl/beneficios", "category_hint": "General" }
+    ]
+  },
+  {
+    "segment": "Bancos & Tarjetas",
+    "issuer_id": "itau",
+    "issuer_name": "Itaú Chile",
+    "parser_strategy": "itau_v1",
+    "sources": [
+      { "source_id": "itau_home", "url": "https://www.itau.cl/beneficios", "category_hint": "General" }
+    ]
+  },
+  {
+    "segment": "Bancos & Tarjetas",
+    "issuer_id": "banco_falabella",
+    "issuer_name": "Banco Falabella / CMR Falabella",
+    "parser_strategy": "bancofalabella_v1",
+    "sources": [
+      { "source_id": "bfal_home", "url": "https://www.bancofalabella.cl/descuentos", "category_hint": "General" }
+    ]
+  },
+  {
+    "segment": "Bancos & Tarjetas",
+    "issuer_id": "banco_ripley",
+    "issuer_name": "Banco Ripley / Tarjeta Ripley",
+    "parser_strategy": "bancoripley_v1",
+    "sources": [
+      { "source_id": "brip_home", "url": "https://www.bancoripley.cl/beneficios", "category_hint": "General" }
+    ]
+  },
+  {
+    "segment": "Bancos & Tarjetas",
+    "issuer_id": "mercado_pago",
+    "issuer_name": "Mercado Pago",
+    "parser_strategy": "mercadopago_v1",
+    "sources": [
+      { "source_id": "mp_home", "url": "https://www.mercadopago.cl/beneficios", "category_hint": "General" }
+    ]
+  },
+  {
+    "segment": "Bancos & Tarjetas",
+    "issuer_id": "tenpo",
+    "issuer_name": "Tenpo",
+    "parser_strategy": "tenpo_v1",
+    "sources": [
+      { "source_id": "tenpo_home", "url": "https://tenpo.cl/beneficios", "category_hint": "General" }
+    ]
+  },
+  {
+    "segment": "Bancos & Tarjetas",
+    "issuer_id": "mach",
+    "issuer_name": "MACH",
+    "parser_strategy": "mach_v1",
+    "sources": [
+      { "source_id": "mach_home", "url": "https://www.somosmach.com/beneficios", "category_hint": "General" }
+    ]
+  },
+  {
+    "segment": "Cajas de compensación",
     "issuer_id": "caja_los_andes",
     "issuer_name": "Caja Los Andes",
-    "source_type": "WEB",
-    "source_url": "https://masbeneficios.cajalosandes.cl/convenios",
-    "parser_strategy": "cajalosandes_v1"
+    "parser_strategy": "cajalosandes_v1",
+    "sources": [
+      { "source_id": "cla_home", "url": "https://masbeneficios.cajalosandes.cl/convenios", "category_hint": "General" }
+    ]
   },
   {
-    "issuer_id": "cmr_falabella",
-    "issuer_name": "CMR Falabella",
-    "source_type": "WEB",
-    "source_url": "https://www.bancofalabella.cl/descuentos",
-    "parser_strategy": "cmr_v1"
+    "segment": "Cajas de compensación",
+    "issuer_id": "caja_los_heroes",
+    "issuer_name": "Caja Los Héroes",
+    "parser_strategy": "cajalosheroes_v1",
+    "sources": [
+      { "source_id": "clh_home", "url": "https://www.losheroes.cl/beneficios/", "category_hint": "General" }
+    ]
   },
   {
-    "issuer_id": "copec_app",
-    "issuer_name": "Copec",
-    "source_type": "API",
-    "source_url": "https://api.copec.cl/v2/promociones",
-    "parser_strategy": "copec_api_v2"
+    "segment": "Cajas de compensación",
+    "issuer_id": "caja_la_araucana",
+    "issuer_name": "Caja La Araucana",
+    "parser_strategy": "cajalaaraucana_v1",
+    "sources": [
+      { "source_id": "cla_home", "url": "https://www.laaraucana.cl/beneficios/", "category_hint": "General" }
+    ]
+  },
+  {
+    "segment": "Cajas de compensación",
+    "issuer_id": "caja_18_sept",
+    "issuer_name": "Caja 18 de Septiembre",
+    "parser_strategy": "caja18sept_v1",
+    "sources": [
+      { "source_id": "c18_home", "url": "https://www.caja18.cl/beneficios", "category_hint": "General" }
+    ]
+  },
+  {
+    "segment": "Retail & Comercio",
+    "issuer_id": "cmr_falabella_retail",
+    "issuer_name": "CMR Falabella (retail + tarjeta)",
+    "parser_strategy": "cmr_v1",
+    "sources": [
+      { "source_id": "cmr_home", "url": "https://www.bancofalabella.cl/descuentos", "category_hint": "General" }
+    ]
+  },
+  {
+    "segment": "Retail & Comercio",
+    "issuer_id": "jumbo_mas",
+    "issuer_name": "Club Jumbo Más / Jumbo (Cencosud)",
+    "parser_strategy": "jumbo_v1",
+    "sources": [
+      { "source_id": "jumbo_home", "url": "https://www.jumbo.cl/beneficios-club", "category_hint": "General" }
+    ]
+  },
+  {
+    "segment": "Retail & Comercio",
+    "issuer_id": "unimarc",
+    "issuer_name": "Club Unimarc / Unimarc",
+    "parser_strategy": "unimarc_v1",
+    "sources": [
+      { "source_id": "uni_home", "url": "https://www.unimarc.cl/club-unimarc", "category_hint": "General" }
+    ]
+  },
+  {
+    "segment": "Retail & Comercio",
+    "issuer_id": "lider",
+    "issuer_name": "Líder / Tarjeta Líder (BCI)",
+    "parser_strategy": "lider_v1",
+    "sources": [
+      { "source_id": "lider_home", "url": "https://www.lider.cl/beneficios", "category_hint": "General" }
+    ]
+  },
+  {
+    "segment": "Retail & Comercio",
+    "issuer_id": "ripley_retail",
+    "issuer_name": "Ripley (retail + tarjeta)",
+    "parser_strategy": "ripley_v1",
+    "sources": [
+      { "source_id": "rip_home", "url": "https://simple.ripley.cl/beneficios", "category_hint": "General" }
+    ]
+  },
+  {
+    "segment": "Retail & Comercio",
+    "issuer_id": "paris",
+    "issuer_name": "Paris (retail + tarjeta + cencosud)",
+    "parser_strategy": "paris_v1",
+    "sources": [
+      { "source_id": "paris_home", "url": "https://www.paris.cl/beneficios-cencosud", "category_hint": "General" }
+    ]
+  },
+  {
+    "segment": "Retail & Comercio",
+    "issuer_id": "hites",
+    "issuer_name": "Hites",
+    "parser_strategy": "hites_v1",
+    "sources": [
+      { "source_id": "hites_home", "url": "https://www.hites.com/beneficios", "category_hint": "General" }
+    ]
+  },
+  {
+    "segment": "Retail & Comercio",
+    "issuer_id": "abcdin",
+    "issuer_name": "ABCDIN",
+    "parser_strategy": "abcdin_v1",
+    "sources": [
+      { "source_id": "abc_home", "url": "https://www.abcdin.cl/beneficios", "category_hint": "General" }
+    ]
+  },
+  {
+    "segment": "Retail & Comercio",
+    "issuer_id": "la_polar",
+    "issuer_name": "La Polar",
+    "parser_strategy": "lapolar_v1",
+    "sources": [
+      { "source_id": "polar_home", "url": "https://www.lapolar.cl/beneficios", "category_hint": "General" }
+    ]
+  },
+  {
+    "segment": "Retail & Comercio",
+    "issuer_id": "sodimac",
+    "issuer_name": "Sodimac / Homecenter",
+    "parser_strategy": "sodimac_v1",
+    "sources": [
+      { "source_id": "sod_home", "url": "https://www.sodimac.cl/sodimac-cl/beneficios", "category_hint": "General" }
+    ]
+  },
+  {
+    "segment": "Retail & Comercio",
+    "issuer_id": "easy",
+    "issuer_name": "Easy Club (Cencosud / Scotiabank)",
+    "parser_strategy": "easy_v1",
+    "sources": [
+      { "source_id": "easy_home", "url": "https://www.easy.cl/easy-club", "category_hint": "General" }
+    ]
+  },
+  {
+    "segment": "Retail & Comercio",
+    "issuer_id": "copec",
+    "issuer_name": "Copec / Copec Voltex",
+    "parser_strategy": "copec_v1",
+    "sources": [
+      { "source_id": "copec_home", "url": "https://www.copec.cl/beneficios", "category_hint": "Combustible" }
+    ]
+  },
+  {
+    "segment": "Retail & Comercio",
+    "issuer_id": "shell",
+    "issuer_name": "Shell",
+    "parser_strategy": "shell_v1",
+    "sources": [
+      { "source_id": "shell_home", "url": "https://www.shell.cl/beneficios", "category_hint": "Combustible" }
+    ]
+  },
+  {
+    "segment": "Isapres & Salud",
+    "issuer_id": "cruz_blanca",
+    "issuer_name": "Isapre Cruz Blanca",
+    "parser_strategy": "isapre_generico_v1",
+    "sources": [
+      { "source_id": "cb_home", "url": "https://www.cruzblanca.cl/beneficios", "category_hint": "Salud" }
+    ]
+  },
+  {
+    "segment": "Isapres & Salud",
+    "issuer_id": "banmedica",
+    "issuer_name": "Isapre Banmédica",
+    "parser_strategy": "isapre_generico_v1",
+    "sources": [
+      { "source_id": "banm_home", "url": "https://www.banmedica.cl/beneficios", "category_hint": "Salud" }
+    ]
+  },
+  {
+    "segment": "Isapres & Salud",
+    "issuer_id": "colmena",
+    "issuer_name": "Isapre Colmena",
+    "parser_strategy": "isapre_generico_v1",
+    "sources": [
+      { "source_id": "colm_home", "url": "https://www.colmena.cl/beneficios-y-descuentos/", "category_hint": "Salud" }
+    ]
+  },
+  {
+    "segment": "Isapres & Salud",
+    "issuer_id": "vida_tres",
+    "issuer_name": "Isapre Vida Tres",
+    "parser_strategy": "isapre_generico_v1",
+    "sources": [
+      { "source_id": "vt_home", "url": "https://www.vidatres.cl/beneficios", "category_hint": "Salud" }
+    ]
+  },
+  {
+    "segment": "Isapres & Salud",
+    "issuer_id": "nueva_mas_vida",
+    "issuer_name": "Isapre Nueva Más Vida",
+    "parser_strategy": "isapre_generico_v1",
+    "sources": [
+      { "source_id": "nmv_home", "url": "https://www.nuevamasvida.cl/beneficios", "category_hint": "Salud" }
+    ]
+  },
+  {
+    "segment": "Isapres & Salud",
+    "issuer_id": "fonasa",
+    "issuer_name": "Fonasa",
+    "parser_strategy": "fonasa_v1",
+    "sources": [
+      { "source_id": "fon_home", "url": "https://www.fonasa.cl/beneficios/", "category_hint": "General" }
+    ]
   }
 ]
