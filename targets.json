@@ -661,42 +661,168 @@
         }
       ]
     },
+ {
+      "segment": "Cajas de compensación",
+      "issuer_id": "caja_los_andes",
+      "issuer_name": "Caja Los Andes",
+      "parser_strategy": "cajalosandes_v1",
+      "sources": [
+        {
+          "source_id": "cla_masbeneficios_home",
+          "url": "https://masbeneficios.cajalosandes.cl/",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "cla_salud",
+          "url": "https://masbeneficios.cajalosandes.cl/salud",
+          "category_hint": "Salud"
+        },
+        {
+          "source_id": "cla_bebe",
+          "url": "https://masbeneficios.cajalosandes.cl/bebe",
+          "category_hint": "Bebé/Familia"
+        },
+        {
+          "source_id": "cla_educacion",
+          "url": "https://masbeneficios.cajalosandes.cl/educacion",
+          "category_hint": "Educación"
+        },
+        {
+          "source_id": "cla_turismo_libre",
+          "url": "https://masbeneficios.cajalosandes.cl/turismo-y-tiempo-libre",
+          "category_hint": "Turismo/Tiempo Libre"
+        },
+        {
+          "source_id": "cla_hogar",
+          "url": "https://masbeneficios.cajalosandes.cl/hogar-y-servicios",
+          "category_hint": "Hogar/Servicios"
+        },
+        {
+          "source_id": "cla_deporte",
+          "url": "https://masbeneficios.cajalosandes.cl/deporte-y-vida-sana",
+          "category_hint": "Deporte/Vida Sana"
+        },
+        {
+          "source_id": "cla_pensionados",
+          "url": "https://masbeneficios.cajalosandes.cl/grandes-beneficios-para-pensionados",
+          "category_hint": "Pensionados"
+        },
+        {
+          "source_id": "cla_sostenibles",
+          "url": "https://masbeneficios.cajalosandes.cl/beneficios-sostenibles",
+          "category_hint": "Sostenibles"
+        },
+        {
+          "source_id": "cla_turismo_destinos",
+          "url": "https://www.turismocajalosandes.cl/destinos",
+          "category_hint": "Turismo Destinos"
+        },
+        {
+          "source_id": "cla_vest_moda",
+          "url": "https://masbeneficios.cajalosandes.cl/landing_categoria.php?idcat=vm",
+          "category_hint": "Vestuario/Moda"
+        }
+      ]
+    },
   {
-    "segment": "Cajas de compensación",
-    "issuer_id": "caja_los_andes",
-    "issuer_name": "Caja Los Andes",
-    "parser_strategy": "cajalosandes_v1",
-    "sources": [
-      { "source_id": "cla_home", "url": "https://masbeneficios.cajalosandes.cl/convenios", "category_hint": "General" }
-    ]
-  },
+      "segment": "Cajas de compensación",
+      "issuer_id": "caja_los_heroes",
+      "issuer_name": "Caja Los Héroes",
+      "parser_strategy": "cajalosheroes_v1",
+      "sources": [
+        {
+          "source_id": "clh_beneficios_home",
+          "url": "https://www.losheroes.cl/trabajadores/beneficios/",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "clh_beneficios_mes",
+          "url": "https://www.losheroes.cl/trabajadores/beneficios-del-mes",
+          "category_hint": "Beneficios del Mes"
+        },
+        {
+          "source_id": "clh_salud_convenios",
+          "url": "https://www.losheroes.cl/trabajadores/salud/otros-convenios",
+          "category_hint": "Salud Convenios"
+        }
+      ]
+    },
   {
-    "segment": "Cajas de compensación",
-    "issuer_id": "caja_los_heroes",
-    "issuer_name": "Caja Los Héroes",
-    "parser_strategy": "cajalosheroes_v1",
-    "sources": [
-      { "source_id": "clh_home", "url": "https://www.losheroes.cl/beneficios/", "category_hint": "General" }
-    ]
-  },
+      "segment": "Cajas de compensación",
+      "issuer_id": "caja_la_araucana",
+      "issuer_name": "Caja La Araucana",
+      "parser_strategy": "cajalaaraucana_v1",
+      "sources": [
+        {
+          "source_id": "cla_beneficios_home",
+          "url": "https://beneficios.laaraucana.cl/",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "cla_salud",
+          "url": "https://beneficios.laaraucana.cl/salud",
+          "category_hint": "Salud"
+        },
+        {
+          "source_id": "cla_recreacion",
+          "url": "https://beneficios.laaraucana.cl/recreacion_y_bienestar",
+          "category_hint": "Recreación/Bienestar"
+        },
+        {
+          "source_id": "cla_turismo",
+          "url": "https://beneficios.laaraucana.cl/turismo_y_viajes",
+          "category_hint": "Turismo/Viajes"
+        },
+        {
+          "source_id": "cla_familia",
+          "url": "https://beneficios.laaraucana.cl/descuentos_para_la_familia",
+          "category_hint": "Familia"
+        },
+        {
+          "source_id": "cla_salud_temporal",
+          "url": "https://beneficios.laaraucana.cl/temporales/tu-salud-mas-cerca",
+          "category_hint": "Salud Temporal"
+        }
+      ]
+    },
   {
-    "segment": "Cajas de compensación",
-    "issuer_id": "caja_la_araucana",
-    "issuer_name": "Caja La Araucana",
-    "parser_strategy": "cajalaaraucana_v1",
-    "sources": [
-      { "source_id": "cla_home", "url": "httpswww.laaraucana.cl/beneficios/", "category_hint": "General" }
-    ]
-  },
-  {
-    "segment": "Cajas de compensación",
-    "issuer_id": "caja_18_sept",
-    "issuer_name": "Caja 18 de Septiembre",
-    "parser_strategy": "caja18sept_v1",
-    "sources": [
-      { "source_id": "c18_home", "url": "https://www.caja18.cl/beneficios", "category_hint": "General" }
-    ]
-  },
+      "segment": "Cajas de compensación",
+      "issuer_id": "caja_18_sept",
+      "issuer_name": "Caja 18 de Septiembre",
+      "parser_strategy": "caja18sept_v1",
+      "sources": [
+        {
+          "source_id": "c18_beneficios_home",
+          "url": "https://www.caja18.cl/beneficios/",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "c18_pensionados_beneficios",
+          "url": "https://www.caja18.cl/pensionados/beneficios/",
+          "category_hint": "Pensionados General"
+        },
+        {
+          "source_id": "c18_trabajadores_beneficios",
+          "url": "https://beneficios.caja18.cl/trabajadores/",
+          "category_hint": "Trabajadores General"
+        },
+        {
+          "source_id": "c18_pensionados_recreacion",
+          "url": "https://www.caja18.cl/pensionados/recreacion/",
+          "category_hint": "Pensionados Recreación"
+        },
+        {
+          "source_id": "c18_pensionados_salud",
+          "url": "https://www.caja18.cl/pensionados/salud/",
+          "category_hint": "Pensionados Salud"
+        },
+        {
+          "source_id": "c18_trabajadores_salud",
+          "url": "https://www.caja18.cl/trabajadores/salud/reembolso-red-de-prestadores/",
+          "category_hint": "Trabajadores Salud"
+        }
+      ]
+    },
   {
     "segment": "Retail & Comercio",
     "issuer_id": "cmr_falabella_retail",
