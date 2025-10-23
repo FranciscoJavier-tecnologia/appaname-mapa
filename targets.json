@@ -464,23 +464,56 @@
       ]
     },
   {
-    "segment": "Bancos & Tarjetas",
-    "issuer_id": "mercado_pago",
-    "issuer_name": "Mercado Pago",
-    "parser_strategy": "mercadopago_v1",
-    "sources": [
-      { "source_id": "mp_home", "url": "https://www.mercadopago.cl/beneficios", "category_hint": "General" }
-    ]
-  },
+      "segment": "Bancos & Tarjetas",
+      "issuer_id": "mercado_pago",
+      "issuer_name": "Mercado Pago",
+      "parser_strategy": "mercadopago_v1",
+      "sources": [
+        {
+          "source_id": "mp_beneficios_home",
+          "url": "https://www.mercadopago.cl/beneficios",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "mp_landing_tarjeta",
+          "url": "https://www.mercadopago.cl/landing/beneficios-tarjeta-prepago?matt_tool=95838441&utm_source=google&utm_medium=search&gad_source=1&gad_campaignid=20583209017&gbraid=0AAAAAqQ1-HTLiFSM_QaI0dVLon3pNufiI&gclid=CjwKCAjwgeLHBhBuEiwAL5gNEdLEyZ8GwVsOxRG0NOoBi5k8uK0UAZ5pjwmjz9CVSKA2FMNQb9AzNhoC3cEQAvD_BwE",
+          "category_hint": "Landing Tarjeta"
+        },
+        {
+          "source_id": "mp_ayuda_beneficios",
+          "url": "https://www.mercadopago.cl/ayuda/31124",
+          "category_hint": "Ayuda Beneficios"
+        }
+      ]
+    },
   {
-    "segment": "Bancos & Tarjetas",
-    "issuer_id": "tenpo",
-    "issuer_name": "Tenpo",
-    "parser_strategy": "tenpo_v1",
-    "sources": [
-      { "source_id": "tenpo_home", "url": "https://tenpo.cl/beneficios", "category_hint": "General" }
-    ]
-  },
+      "segment": "Bancos & Tarjetas",
+      "issuer_id": "tenpo",
+      "issuer_name": "Tenpo",
+      "parser_strategy": "tenpo_v1",
+      "sources": [
+        {
+          "source_id": "tenpo_beneficios_home",
+          "url": "https://www.tenpo.cl/beneficios",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "tenpo_landing_tdc",
+          "url": "https://www.tenpo.cl/productos/tarjeta-de-credito/home",
+          "category_hint": "Landing TDC"
+        },
+        {
+          "source_id": "tenpo_landing_ahorro",
+          "url": "https://www.tenpo.cl/productos/tarjeta-de-credito/tarjetaconahorro",
+          "category_hint": "Landing Ahorro"
+        },
+        {
+          "source_id": "tenpo_viajes",
+          "url": "https://www.tenpo.cl/viajes",
+          "category_hint": "Viajes"
+        }
+      ]
+    },
   {
     "segment": "Bancos & Tarjetas",
     "issuer_id": "mach",
