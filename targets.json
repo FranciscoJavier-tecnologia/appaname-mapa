@@ -1256,57 +1256,208 @@
       ]
     },
   {
-    "segment": "Isapres & Salud",
-    "issuer_id": "cruz_blanca",
-    "issuer_name": "Isapre Cruz Blanca",
-    "parser_strategy": "isapre_generico_v1",
-    "sources": [
-      { "source_id": "cb_home", "url": "https://www.cruzblanca.cl/beneficios", "category_hint": "Salud" }
-    ]
-  },
+      "segment": "Isapres & Salud",
+      "issuer_id": "cruz_blanca",
+      "issuer_name": "Isapre Cruz Blanca",
+      "parser_strategy": "isapre_generico_v1",
+      "sources": [
+        {
+          "source_id": "cb_beneficios_home",
+          "url": "https://www.cruzblanca.cl/beneficios",
+          "category_hint": "Salud General"
+        },
+        {
+          "source_id": "cb_beneficios_plan",
+          "url": "https://www.cruzblanca.cl/beneficios-de-tu-plan",
+          "category_hint": "Beneficios Plan"
+        },
+        {
+          "source_id": "cb_beneficios_salcobrand",
+          "url": "https://www.cruzblanca.cl/beneficios-en-farmacias-salcobrand",
+          "category_hint": "Farmacias Salcobrand"
+        },
+        {
+          "source_id": "cb_beneficios_integramedica",
+          "url": "https://www.cruzblanca.cl/beneficios-integramedica",
+          "category_hint": "Integramedica"
+        },
+        {
+          "source_id": "cb_home",
+          "url": "https://www.cruzblanca.cl/",
+          "category_hint": "Home"
+        },
+        {
+          "source_id": "cb_bono_cero",
+          "url": "https://www.cruzblanca.cl/bono-costo-cero",
+          "category_hint": "Bono Costo Cero"
+        },
+        {
+          "source_id": "cb_productos_adicionales",
+          "url": "https://www.cruzblanca.cl/productos-adicionales",
+          "category_hint": "Productos Adicionales"
+        }
+      ]
+    },
   {
-    "segment": "Isapres & Salud",
-    "issuer_id": "banmedica",
-    "issuer_name": "Isapre Banmédica",
-    "parser_strategy": "isapre_generico_v1",
-    "sources": [
-      { "source_id": "banm_home", "url": "https://www.banmedica.cl/beneficios", "category_hint": "Salud" }
-    ]
-  },
+      "segment": "Isapres & Salud",
+      "issuer_id": "banmedica",
+      "issuer_name": "Isapre Banmédica",
+      "parser_strategy": "isapre_generico_v1",
+      "sources": [
+        {
+          "source_id": "banm_beneficios_home",
+          "url": "https://www.banmedica.cl/beneficios/",
+          "category_hint": "Salud General"
+        },
+        {
+          "source_id": "banm_tuplan_home",
+          "url": "https://www.tuplanbanmedica.cl/",
+          "category_hint": "Info Plan"
+        },
+        {
+          "source_id": "banm_masqueunplan",
+          "url": "https://www.tuplanbanmedica.cl/masqueunplan/",
+          "category_hint": "Campaña MásQueUnPlan"
+        }
+      ]
+    },
   {
-    "segment": "Isapres & Salud",
-    "issuer_id": "colmena",
-    "issuer_name": "Isapre Colmena",
-    "parser_strategy": "isapre_generico_v1",
-    "sources": [
-      { "source_id": "colm_home", "url": "https://www.colmena.cl/beneficios-y-descuentos/", "category_hint": "Salud" }
-    ]
-  },
+      "segment": "Isapres & Salud",
+      "issuer_id": "colmena",
+      "issuer_name": "Isapre Colmena",
+      "parser_strategy": "isapre_generico_v1",
+      "sources": [
+        {
+          "source_id": "colm_beneficios_descuentos",
+          "url": "https://www.colmena.cl/beneficios-y-descuentos/",
+          "category_hint": "Salud General Descuentos"
+        },
+        {
+          "source_id": "colm_beneficios_plan",
+          "url": "https://www.colmena.cl/beneficios-incluidos-en-tu-plan-de-salud/",
+          "category_hint": "Beneficios Plan"
+        },
+        {
+          "source_id": "colm_club_beneficios",
+          "url": "https://clubdebeneficios.colmena.cl/",
+          "category_hint": "Club Beneficios"
+        },
+        {
+          "source_id": "colm_bono_cero",
+          "url": "https://www.colmena.cl/convenio-bono-costo-cero/",
+          "category_hint": "Bono Costo Cero"
+        },
+        {
+          "source_id": "colm_productos_adicionales",
+          "url": "https://www.colmena.cl/productos-adicionales/",
+          "category_hint": "Productos Adicionales"
+        }
+      ]
+    },
+ {
+      "segment": "Isapres & Salud",
+      "issuer_id": "vida_tres",
+      "issuer_name": "Isapre Vida Tres",
+      "parser_strategy": "isapre_generico_v1",
+      "sources": [
+        {
+          "source_id": "vt_beneficios_home",
+          "url": "https://www.vidatres.cl/beneficios/",
+          "category_hint": "Salud General"
+        },
+        {
+          "source_id": "vt_alianza_salcobrand",
+          "url": "https://www.vidatres.cl/disfruta-los-beneficios-nuestra-nueva-alianza-farmacias-salcobrand/",
+          "category_hint": "Farmacias Salcobrand"
+        },
+        {
+          "source_id": "vt_opticas_schilling",
+          "url": "https://www.vidatres.cl/beneficios/descuentos-en-opticas-schilling/",
+          "category_hint": "Ópticas Schilling"
+        },
+        {
+          "source_id": "vt_complementos",
+          "url": "https://www.vidatres.cl/complementos/",
+          "category_hint": "Complementos"
+        },
+        {
+          "source_id": "vt_beneficios_farmacias",
+          "url": "https://www.vidatres.cl/beneficios-en-farmacias/",
+          "category_hint": "Farmacias General"
+        },
+         {
+          "source_id": "vt_productos_adicionales_pdf",
+          "url": "https://www.vidatres.cl/wp-content/uploads/2021/10/Folleto-Digital-Productos-Adicionales-Vida-Tres.pdf",
+          "category_hint": "Productos Adicionales (PDF)"
+        }
+      ]
+    },
   {
-    "segment": "Isapres & Salud",
-    "issuer_id": "vida_tres",
-    "issuer_name": "Isapre Vida Tres",
-    "parser_strategy": "isapre_generico_v1",
-    "sources": [
-      { "source_id": "vt_home", "url": "https://www.vidatres.cl/beneficios", "category_hint": "Salud" }
-    ]
-  },
+      "segment": "Isapres & Salud",
+      "issuer_id": "nueva_mas_vida",
+      "issuer_name": "Isapre Nueva Más Vida",
+      "parser_strategy": "isapre_generico_v1",
+      "sources": [
+        {
+          "source_id": "nmv_beneficios_home",
+          "url": "https://www.nuevamasvida.cl/beneficios",
+          "category_hint": "Salud General"
+        },
+        {
+          "source_id": "nmv_beneficios_complementarios",
+          "url": "https://www.nuevamasvida.cl/beneficios-complementarios/",
+          "category_hint": "Beneficios Complementarios"
+        },
+        {
+          "source_id": "nmv_club_beneficios",
+          "url": "https://www.nuevamasvida.cl/club-de-beneficios/",
+          "category_hint": "Club Beneficios"
+        },
+        {
+          "source_id": "nmv_beneficios_adicionales_ayuda",
+          "url": "https://www.nuevamasvida.cl/centro-de-ayuda/beneficios-adicionales/",
+          "category_hint": "Beneficios Adicionales (Ayuda)"
+        },
+        {
+          "source_id": "nmv_buscador_costo_cero",
+          "url": "https://www.nuevamasvida.cl/buscador-costo-cero/",
+          "category_hint": "Bono Costo Cero"
+        },
+        {
+          "source_id": "nmv_seguro_cesantia",
+          "url": "https://www.nuevamasvida.cl/beneficios-complementarios/seguro-de-cesantia/",
+          "category_hint": "Seguro Cesantía"
+        }
+      ]
+    },
   {
-    "segment": "Isapres & Salud",
-    "issuer_id": "nueva_mas_vida",
-    "issuer_name": "Isapre Nueva Más Vida",
-    "parser_strategy": "isapre_generico_v1",
-    "sources": [
-      { "source_id": "nmv_home", "url": "https://www.nuevamasvida.cl/beneficios", "category_hint": "Salud" }
-    ]
-  },
-  {
-    "segment": "Isapres & Salud",
-    "issuer_id": "fonasa",
-    "issuer_name": "Fonasa",
-    "parser_strategy": "fonasa_v1",
-    "sources": [
-      { "source_id": "fon_home", "url": "httpsD://www.fonasa.cl/beneficios/", "category_hint": "General" }
+      "segment": "Isapres & Salud",
+      "issuer_id": "fonasa",
+      "issuer_name": "Fonasa",
+      "parser_strategy": "fonasa_v1",
+      "sources": [
+        {
+          "source_id": "fon_beneficios_home",
+          "url": "https://www.fonasa.cl/beneficios/",
+          "category_hint": "General Fonasa"
+        },
+        {
+          "source_id": "fon_redsalud",
+          "url": "https://www.redsalud.cl/informacion-para-el-paciente/fonasa-en-redsalud",
+          "category_hint": "Convenio RedSalud"
+        },
+        {
+          "source_id": "fon_andessalud",
+          "url": "https://www.andessalud.cl/beneficios-fonasa/",
+          "category_hint": "Convenio AndesSalud"
+        },
+        {
+          "source_id": "fon_integramedica",
+          "url": "https://www.integramedica.cl/planes-y-convenios/convenios/fonasa",
+          "category_hint": "Convenio Integramedica"
+        }
+      ]
+    },
     ]
   }
 ]
