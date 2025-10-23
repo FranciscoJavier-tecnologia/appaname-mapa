@@ -552,6 +552,64 @@
       ]
     },
   {
+      "segment": "Bancos & Tarjetas",
+      "issuer_id": "banco_bice",
+      "issuer_name": "Banco Bice",
+      "parser_strategy": "bancobice_v1",
+      "sources": [
+        {
+          "source_id": "bice_beneficios_home",
+          "url": "https://banco.bice.cl/personas/beneficios",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "bice_restaurante",
+          "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=restaurante",
+          "category_hint": "Restaurantes"
+        },
+        {
+          "source_id": "bice_gourmet",
+          "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=gourmet",
+          "category_hint": "Gourmet"
+        },
+        {
+          "source_id": "bice_delivery",
+          "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=delivery",
+          "category_hint": "Delivery"
+        },
+        {
+          "source_id": "bice_viajes",
+          "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=viajes-y-transporte",
+          "category_hint": "Viajes"
+        },
+        {
+          "source_id": "bice_shopping",
+          "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=shopping",
+          "category_hint": "Shopping"
+        },
+        {
+          "source_id": "bice_mascotas",
+          "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=mascotas",
+          "category_hint": "Mascotas"
+        },
+        {
+          "source_id": "bice_bienestar",
+          "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=bienestar-y-entretencion",
+          "category_hint": "Bienestar"
+        },
+        {
+          "source_id": "bice_cuotas",
+          "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=cuotas",
+          "category_hint": "Cuotas"
+        },
+        {
+          "source_id": "bice_cocha",
+          "url": "https://www.cocha.com/",
+          "category_hint": "Viajes"
+        }
+      ]
+    },
+  {
     "segment": "Cajas de compensación",
     "issuer_id": "caja_los_andes",
     "issuer_name": "Caja Los Andes",
