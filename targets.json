@@ -141,7 +141,26 @@
     "issuer_name": "Banco Santander Chile",
     "parser_strategy": "santander_v1",
     "sources": [
-      { "source_id": "sant_home", "url": "https://banco.santander.cl/beneficios", "category_hint": "General" }
+      {
+        "source_id": "sant_beneficios_home",
+        "url": "https://banco.santander.cl/beneficios",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "sant_personas",
+        "url": "https://banco.santander.cl/personas",
+        "category_hint": "General Personas"
+      },
+      {
+        "source_id": "sant_beneficios_personas",
+        "url": "https://banco.santander.cl/beneficios?segmento=s-personas",
+        "category_hint": "Beneficios Personas"
+      },
+      {
+        "source_id": "sant_promociones",
+        "url": "https://banco.santander.cl/beneficios/promociones",
+        "category_hint": "Promociones"
+      }
     ]
   },
   {
@@ -241,7 +260,7 @@
     "issuer_name": "Caja La Araucana",
     "parser_strategy": "cajalaaraucana_v1",
     "sources": [
-      { "source_id": "cla_home", "url": "https://www.laaraucana.cl/beneficios/", "category_hint": "General" }
+      { "source_id": "cla_home", "url": "httpswww.laaraucana.cl/beneficios/", "category_hint": "General" }
     ]
   },
   {
