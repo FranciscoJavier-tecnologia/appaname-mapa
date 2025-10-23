@@ -68,7 +68,71 @@
     "issuer_name": "Banco de Chile",
     "parser_strategy": "bancochile_v1",
     "sources": [
-      { "source_id": "bch_home", "url": "https://portales.bancochile.cl/beneficios", "category_hint": "General" }
+      {
+        "source_id": "bch_beneficios_home",
+        "url": "https://sitiospublicos.bancochile.cl/personas/beneficios",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "bch_alianza_skyplus",
+        "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/alianza-travel-skyplus",
+        "category_hint": "Viajes"
+      },
+      {
+        "source_id": "bch_sabores",
+        "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/sabores",
+        "category_hint": "Restaurantes"
+      },
+      {
+        "source_id": "bch_panoramas",
+        "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/panoramas",
+        "category_hint": "Entretención"
+      },
+      {
+        "source_id": "bch_viajes",
+        "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/viajes",
+        "category_hint": "Viajes"
+      },
+      {
+        "source_id": "bch_mascotas",
+        "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/mascotas",
+        "category_hint": "Mascotas"
+      },
+      {
+        "source_id": "bch_bienestar",
+        "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/bienestar",
+        "category_hint": "Bienestar"
+      },
+      {
+        "source_id": "bch_sustentable",
+        "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/sustentable",
+        "category_hint": "Sustentable"
+      },
+      {
+        "source_id": "bch_programa_travel",
+        "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/programa-travel",
+        "category_hint": "Viajes"
+      },
+      {
+        "source_id": "bch_delivery",
+        "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/delivery",
+        "category_hint": "Delivery"
+      },
+      {
+        "source_id": "bch_marcas",
+        "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/marcas",
+        "category_hint": "Marcas"
+      },
+      {
+        "source_id": "bch_cuenta_fan",
+        "url": "https://sitiospublicos.bancochile.cl/cuenta-fan",
+        "category_hint": "Cuenta Fan"
+      },
+      {
+        "source_id": "bch_travel_cl",
+        "url": "https://www.travel.cl/",
+        "category_hint": "Viajes"
+      }
     ]
   },
   {
@@ -276,7 +340,7 @@
     "issuer_name": "Sodimac / Homecenter",
     "parser_strategy": "sodimac_v1",
     "sources": [
-      { "source_id": "sod_home", "url": "httpsD://www.sodimac.cl/sodimac-cl/beneficios", "category_hint": "General" }
+      { "source_id": "sod_home", "url": "httpsZ://www.sodimac.cl/sodimac-cl/beneficios", "category_hint": "General" }
     ]
   },
   {
