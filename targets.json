@@ -5,7 +5,61 @@
     "issuer_name": "BancoEstado",
     "parser_strategy": "bancoestado_v1",
     "sources": [
-      { "source_id": "best_home", "url": "https://www.bancoestado.cl/content/bancoestado-public/cl/es/home/productos/beneficios.html", "category_hint": "General" }
+      {
+        "source_id": "best_todos_inicio",
+        "url": "https://www.bancoestado.cl/content/bancoestado-public/cl/es/home/home/todosuma---bancoestado-personas/todos-beneficios.html#inicio",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "best_panoramas",
+        "url": "https://www.bancoestado.cl/content/bancoestado-public/cl/es/home/home/todosuma---bancoestado-personas/con-bancoestado-la-entretencion-es-para-todo-el-ano---bancoestado-pers.html#/panoramas",
+        "category_hint": "Entretención"
+      },
+      {
+        "source_id": "best_sabores",
+        "url": "https://www.bancoestado.cl/content/bancoestado-public/cl/es/home/home/todosuma---bancoestado-personas/un-mes-de-sabores---bancoestado-personas.html#/sabores",
+        "category_hint": "Restaurantes"
+      },
+      {
+        "source_id": "best_viajes_jetsmart",
+        "url": "https://www.bancoestado.cl/content/bancoestado-public/cl/es/home/home/todosuma---bancoestado-personas/alianza-jetsmart-todosuma-bancoestado.html#/viajes",
+        "category_hint": "Viajes"
+      },
+      {
+        "source_id": "best_todos_bienestar",
+        "url": "https://www.bancoestado.cl/content/bancoestado-public/cl/es/home/home/todosuma---bancoestado-personas/todos-beneficios.html#bienestar",
+        "category_hint": "Bienestar"
+      },
+      {
+        "source_id": "best_todos_hogar",
+        "url": "https://www.bancoestado.cl/content/bancoestado-public/cl/es/home/home/todosuma---bancoestado-personas/todos-beneficios.html#hogar",
+        "category_hint": "Hogar"
+      },
+      {
+        "source_id": "best_todos_impacto",
+        "url": "https://www.bancoestado.cl/content/bancoestado-public/cl/es/home/home/todosuma---bancoestado-personas/todos-beneficios.html#impacto",
+        "category_hint": "Impacto"
+      },
+      {
+        "source_id": "best_todos_vestuario",
+        "url": "https://www.bancoestado.cl/content/bancoestado-public/cl/es/home/home/todosuma---bancoestado-personas/todos-beneficios.html#vestuario",
+        "category_hint": "Vestuario"
+      },
+      {
+        "source_id": "best_todos_cuotas",
+        "url": "https://www.bancoestado.cl/content/bancoestado-public/cl/es/home/home/todosuma---bancoestado-personas/todos-beneficios.html#cuotas",
+        "category_hint": "Cuotas"
+      },
+      {
+        "source_id": "best_todos_otros",
+        "url": "https://www.bancoestado.cl/content/bancoestado-public/cl/es/home/home/todosuma---bancoestado-personas/todos-beneficios.html#otros",
+        "category_hint": "Otros"
+      },
+      {
+        "source_id": "best_jetsmart_alianza",
+        "url": "https://jetsmart.com/cl/es/minisitios/clientesbancoestado",
+        "category_hint": "Viajes"
+      }
     ]
   },
   {
@@ -222,7 +276,7 @@
     "issuer_name": "Sodimac / Homecenter",
     "parser_strategy": "sodimac_v1",
     "sources": [
-      { "source_id": "sod_home", "url": "https://www.sodimac.cl/sodimac-cl/beneficios", "category_hint": "General" }
+      { "source_id": "sod_home", "url": "httpsD://www.sodimac.cl/sodimac-cl/beneficios", "category_hint": "General" }
     ]
   },
   {
@@ -303,7 +357,7 @@
     "issuer_name": "Fonasa",
     "parser_strategy": "fonasa_v1",
     "sources": [
-      { "source_id": "fon_home", "url": "https://www.fonasa.cl/beneficios/", "category_hint": "General" }
+      { "source_id": "fon_home", "url": "httpsD://www.fonasa.cl/beneficios/", "category_hint": "General" }
     ]
   }
 ]
