@@ -824,14 +824,38 @@
       ]
     },
   {
-    "segment": "Retail & Comercio",
-    "issuer_id": "cmr_falabella_retail",
-    "issuer_name": "CMR Falabella (retail + tarjeta)",
-    "parser_strategy": "cmr_v1",
-    "sources": [
-      { "source_id": "cmr_home", "url": "https://www.bancofalabella.cl/descuentos", "category_hint": "General" }
-    ]
-  },
+      "segment": "Retail & Comercio",
+      "issuer_id": "cmr_falabella_retail",
+      "issuer_name": "CMR Falabella (retail + tarjeta)",
+      "parser_strategy": "cmr_v1",
+      "sources": [
+        {
+          "source_id": "cmr_descuentos_home",
+          "url": "https://www.bancofalabella.cl/descuentos",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "cmr_antojos",
+          "url": "https://www.bancofalabella.cl/descuentos/antojos",
+          "category_hint": "Restaurantes"
+        },
+        {
+          "source_id": "cmr_club_restaurantes",
+          "url": "https://www.bancofalabella.cl/descuentos/detalle/club-de-restaurantes",
+          "category_hint": "Restaurantes"
+        },
+        {
+          "source_id": "cmr_todos",
+          "url": "https://www.bancofalabella.cl/descuentos/todos",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "cmr_mccombo",
+          "url": "https://www.bancofalabella.cl/descuentos/detalle/mccombodelmes",
+          "category_hint": "Restaurantes"
+        }
+      ]
+    },
   {
       "segment": "Retail & Comercio",
       "issuer_id": "jumbo_mas",
@@ -875,105 +899,362 @@
         }
       ]
     },
+ {
+      "segment": "Retail & Comercio",
+      "issuer_id": "unimarc",
+      "issuer_name": "Club Unimarc / Unimarc",
+      "parser_strategy": "unimarc_v1",
+      "sources": [
+        {
+          "source_id": "uni_club_home",
+          "url": "https://www.unimarc.cl/club-unimarc",
+          "category_hint": "General Club"
+        },
+        {
+          "source_id": "uni_beneficios_home",
+          "url": "https://www.unimarc.cl/club-unimarc/beneficios",
+          "category_hint": "General Beneficios"
+        },
+        {
+          "source_id": "uni_beneficios_salud",
+          "url": "https://www.unimarc.cl/club-unimarc/beneficios?category=Salud+y+cuidado+personal",
+          "category_hint": "Salud"
+        },
+        {
+          "source_id": "uni_beneficios_turismo",
+          "url": "https://www.unimarc.cl/club-unimarc/beneficios?category=Turismo+y+Viajes",
+          "category_hint": "Turismo/Viajes"
+        },
+        {
+          "source_id": "uni_beneficios_entretencion",
+          "url": "https://www.unimarc.cl/club-unimarc/beneficios?category=Entretenci%C3%B3n",
+          "category_hint": "Entretención"
+        },
+        {
+          "source_id": "uni_beneficios_destacados",
+          "url": "https://www.unimarc.cl/club-unimarc/beneficios?category=Destacados",
+          "category_hint": "Destacados"
+        },
+        {
+          "source_id": "uni_beneficios_otros",
+          "url": "https://www.unimarc.cl/club-unimarc/beneficios?category=Otros",
+          "category_hint": "Otros"
+        },
+        {
+          "source_id": "uni_beneficios_todos",
+          "url": "https://www.unimarc.cl/club-unimarc/beneficios?category=Todos",
+          "category_hint": "Todos"
+        }
+      ]
+    },
   {
-    "segment": "Retail & Comercio",
-    "issuer_id": "unimarc",
-    "issuer_name": "Club Unimarc / Unimarc",
-    "parser_strategy": "unimarc_v1",
-    "sources": [
-      { "source_id": "uni_home", "url": "https://www.unimarc.cl/club-unimarc", "category_hint": "General" }
-    ]
-  },
+      "segment": "Retail & Comercio",
+      "issuer_id": "lider",
+      "issuer_name": "Líder / Tarjeta Líder (BCI)",
+      "parser_strategy": "lider_v1",
+      "sources": [
+        {
+          "source_id": "lider_beneficios_home",
+          "url": "https://www.lider.cl/beneficios",
+          "category_hint": "General Lider"
+        },
+        {
+          "source_id": "liderbci_home",
+          "url": "https://www.liderbci.cl/",
+          "category_hint": "Home Lider BCI"
+        },
+        {
+          "source_id": "liderbci_descuentos",
+          "url": "https://www.liderbci.cl/descuentos",
+          "category_hint": "Descuentos Lider BCI"
+        },
+        {
+          "source_id": "liderbci_tarjeta_digital",
+          "url": "https://tarjetadigital.liderbciserviciosfinancieros.cl/ingreso-de-datos?preevaluado=false",
+          "category_hint": "Tarjeta Digital Lider BCI"
+        }
+      ]
+    },
+ {
+      "segment": "Retail & Comercio",
+      "issuer_id": "ripley_retail",
+      "issuer_name": "Ripley (retail + tarjeta)",
+      "parser_strategy": "ripley_v1", // Usamos la misma estrategia que Banco Ripley
+      "sources": [
+        {
+          "source_id": "rip_beneficios_home",
+          "url": "https://www.bancoripley.cl/beneficios-y-promociones",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "rip_restaurantes",
+          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-restaurantes",
+          "category_hint": "Restaurantes"
+        },
+        {
+          "source_id": "rip_restofans",
+          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-restofans",
+          "category_hint": "Restaurantes Fans"
+        },
+        {
+          "source_id": "rip_delivery",
+          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-comidadelivery",
+          "category_hint": "Delivery"
+        },
+        {
+          "source_id": "rip_bienestar",
+          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-bienestar-belleza",
+          "category_hint": "Bienestar"
+        },
+        {
+          "source_id": "rip_viajes",
+          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-viajes-transportes",
+          "category_hint": "Viajes"
+        },
+        {
+          "source_id": "rip_mastercard_black",
+          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-mastercardblack",
+          "category_hint": "Mastercard Black"
+        },
+        {
+          "source_id": "rip_entretencion",
+          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-entretencionyotros",
+          "category_hint": "Entretención"
+        }
+      ]
+    },
   {
-    "segment": "Retail & Comercio",
-    "issuer_id": "lider",
-    "issuer_name": "Líder / Tarjeta Líder (BCI)",
-    "parser_strategy": "lider_v1",
-    "sources": [
-      { "source_id": "lider_home", "url": "https://www.lider.cl/beneficios", "category_hint": "General" }
-    ]
-  },
+      "segment": "Retail & Comercio",
+      "issuer_id": "paris",
+      "issuer_name": "Paris (retail + tarjeta + cencosud)",
+      "parser_strategy": "paris_v1",
+      "sources": [
+        {
+          "source_id": "paris_beneficios_cencosud",
+          "url": "https://www.paris.cl/beneficios-cencosud",
+          "category_hint": "General Cencosud"
+        },
+        {
+          "source_id": "paris_home",
+          "url": "https://www.paris.cl/",
+          "category_hint": "Home"
+        },
+        {
+          "source_id": "paris_outlet",
+          "url": "https://www.paris.cl/outlet/",
+          "category_hint": "Outlet"
+        },
+        {
+          "source_id": "paris_tarjeta_cencosud",
+          "url": "https://www.tarjetacencosud.cl/publico/beneficios/landing/inicio",
+          "category_hint": "Tarjeta Cencosud Beneficios"
+        },
+        {
+          "source_id": "paris_novios",
+          "url": "https://www.noviosparis.cl/home",
+          "category_hint": "Novios Paris"
+        },
+        {
+          "source_id": "paris_cencopay",
+          "url": "https://cencopay.cl/ofertas/",
+          "category_hint": "Cencopay Ofertas"
+        }
+      ]
+    },
   {
-    "segment": "Retail & Comercio",
-    "issuer_id": "ripley_retail",
-    "issuer_name": "Ripley (retail + tarjeta)",
-    "parser_strategy": "ripley_v1",
-    "sources": [
-      { "source_id": "rip_home", "url": "https://simple.ripley.cl/beneficios", "category_hint": "General" }
-    ]
-  },
+      "segment": "Retail & Comercio",
+      "issuer_id": "hites",
+      "issuer_name": "Hites",
+      "parser_strategy": "hites_v1",
+      "sources": [
+        {
+          "source_id": "hites_beneficios_home",
+          "url": "https://www.hites.com/beneficios",
+          "category_hint": "General Beneficios"
+        },
+        {
+          "source_id": "hites_donde_usar_tarjeta",
+          "url": "https://www.tarjetahites.com/donde-usarla",
+          "category_hint": "Dónde Usar Tarjeta"
+        },
+        {
+          "source_id": "hites_nuevos_beneficios",
+          "url": "https://tarjetahites.com/dile-hola-a-tus-nuevos-beneficios",
+          "category_hint": "Nuevos Beneficios"
+        },
+        {
+          "source_id": "hites_home",
+          "url": "https://www.hites.com/",
+          "category_hint": "Home"
+        },
+        {
+          "source_id": "hites_especial_tarjeta",
+          "url": "https://www.hites.com/especiales/tarjeta-hites/",
+          "category_hint": "Especial Tarjeta Hites"
+        }
+      ]
+    },
   {
-    "segment": "Retail & Comercio",
-    "issuer_id": "paris",
-    "issuer_name": "Paris (retail + tarjeta + cencosud)",
-    "parser_strategy": "paris_v1",
-    "sources": [
-      { "source_id": "paris_home", "url": "https://www.paris.cl/beneficios-cencosud", "category_hint": "General" }
-    ]
-  },
+      "segment": "Retail & Comercio",
+      "issuer_id": "abcdin",
+      "issuer_name": "ABCDIN",
+      "parser_strategy": "abcdin_v1",
+      "sources": [
+        {
+          "source_id": "abcdin_beneficios_home",
+          "url": "https://www.abcdin.cl/beneficios",
+          "category_hint": "General Beneficios"
+        },
+        {
+          "source_id": "abcdin_tarjeta_descuentos",
+          "url": "https://www.tarjetaabc.cl/s/descuentos",
+          "category_hint": "Tarjeta ABC Descuentos"
+        },
+        {
+          "source_id": "abcdin_home",
+          "url": "https://www.abc.cl/",
+          "category_hint": "Home ABC"
+        },
+        {
+          "source_id": "abcdin_tarjeta_home",
+          "url": "https://www.tarjetaabc.cl/s/",
+          "category_hint": "Home Tarjeta ABC"
+        }
+      ]
+    },
+ {
+      "segment": "Retail & Comercio",
+      "issuer_id": "la_polar",
+      "issuer_name": "La Polar",
+      "parser_strategy": "lapolar_v1",
+      "sources": [
+        {
+          "source_id": "polar_beneficios_home",
+          "url": "https://www.lapolar.cl/beneficios",
+          "category_hint": "General Beneficios"
+        },
+        {
+          "source_id": "polar_tarjeta_abc_info",
+          "url": "https://www.tarjetaabc.cl/s/tarjeta-la-polar",
+          "category_hint": "Info Tarjeta ABC"
+        },
+        {
+          "source_id": "polar_tarjeta_abc_visa_info",
+          "url": "https://www.tarjetaabc.cl/s/tarjeta-la-polar-visa",
+          "category_hint": "Info Tarjeta ABC Visa"
+        }
+      ]
+    },
   {
-    "segment": "Retail & Comercio",
-    "issuer_id": "hites",
-    "issuer_name": "Hites",
-    "parser_strategy": "hites_v1",
-    "sources": [
-      { "source_id": "hites_home", "url": "https://www.hites.com/beneficios", "category_hint": "General" }
-    ]
-  },
+      "segment": "Retail & Comercio",
+      "issuer_id": "sodimac",
+      "issuer_name": "Sodimac / Homecenter",
+      "parser_strategy": "sodimac_v1",
+      "sources": [
+        {
+          "source_id": "sod_beneficios_general",
+          "url": "https://www.sodimac.cl/sodimac-cl/beneficios",
+          "category_hint": "General Beneficios"
+        },
+        {
+          "source_id": "sod_comprar_beneficios",
+          "url": "https://www.sodimac.cl/sodimac-cl/content/comprar-beneficios",
+          "category_hint": "Comprar Beneficios"
+        }
+      ]
+    },
   {
-    "segment": "Retail & Comercio",
-    "issuer_id": "abcdin",
-    "issuer_name": "ABCDIN",
-    "parser_strategy": "abcdin_v1",
-    "sources": [
-      { "source_id": "abc_home", "url": "https://www.abcdin.cl/beneficios", "category_hint": "General" }
-    ]
-  },
+      "segment": "Retail & Comercio",
+      "issuer_id": "easy",
+      "issuer_name": "Easy Club (Cencosud / Scotiabank)",
+      "parser_strategy": "easy_v1",
+      "sources": [
+        {
+          "source_id": "easy_club_home",
+          "url": "https://www.easy.cl/easy-club",
+          "category_hint": "General Club"
+        },
+        {
+          "source_id": "easy_home",
+          "url": "https://www.easy.cl/",
+          "category_hint": "Home"
+        },
+        {
+          "source_id": "easy_ofertas_online",
+          "url": "https://www.easy.cl/eventos/ofertas-exclusivas-online",
+          "category_hint": "Ofertas Online"
+        }
+      ]
+    },
   {
-    "segment": "Retail & Comercio",
-    "issuer_id": "la_polar",
-    "issuer_name": "La Polar",
-    "parser_strategy": "lapolar_v1",
-    "sources": [
-      { "source_id": "polar_home", "url": "https://www.lapolar.cl/beneficios", "category_hint": "General" }
-    ]
-  },
+      "segment": "Retail & Comercio",
+      "issuer_id": "copec",
+      "issuer_name": "Copec / Copec Voltex",
+      "parser_strategy": "copec_v1",
+      "sources": [
+        {
+          "source_id": "copec_beneficios_home",
+          "url": "https://www.copec.cl/beneficios",
+          "category_hint": "Combustible"
+        },
+        {
+          "source_id": "copec_voltex_puntos_full",
+          "url": "https://copecvoltex.cl/pages/puntos-full",
+          "category_hint": "Voltex Puntos Full"
+        },
+        {
+          "source_id": "copec_full_catalogo",
+          "url": "https://www.fullcopec.cl/catalogo",
+          "category_hint": "Full Copec Catálogo"
+        },
+        {
+          "source_id": "copec_voltex_seguros_convenios",
+          "url": "https://copecvoltex.cl/pages/seguros-y-convenios-1",
+          "category_hint": "Voltex Seguros/Convenios"
+        }
+      ]
+    },
+ {
+      "segment": "Retail & Comercio",
+      "issuer_id": "shell",
+      "issuer_name": "Shell",
+      "parser_strategy": "shell_v1",
+      "sources": [
+        {
+          "source_id": "shell_beneficios_home",
+          "url": "https://www.shell.cl/beneficios",
+          "category_hint": "Combustible"
+        },
+        {
+          "source_id": "shell_promo_ilusion",
+          "url": "https://www.shell.cl/estaciones-de-servicio/promociones-y-campanas/promo-ilusion.html",
+          "category_hint": "Promociones"
+        },
+        {
+          "source_id": "shell_card_transporte",
+          "url": "https://www.shell.cl/estaciones-de-servicio/tarjetas-shell-card/shell-card-transporte.html",
+          "category_hint": "Shell Card Transporte"
+        },
+        {
+          "source_id": "shell_card_info",
+          "url": "https://www.shell.cl/estaciones-de-servicio/tarjetas-shell-card/sobre-las-tarjetas-shell-card.html",
+          "category_hint": "Shell Card Info"
+        }
+      ]
+    },
   {
-    "segment": "Retail & Comercio",
-    "issuer_id": "sodimac",
-    "issuer_name": "Sodimac / Homecenter",
-    "parser_strategy": "sodimac_v1",
-    "sources": [
-      { "source_id": "sod_home", "url": "httpsZ://www.sodimac.cl/sodimac-cl/beneficios", "category_hint": "General" }
-    ]
-  },
-  {
-    "segment": "Retail & Comercio",
-    "issuer_id": "easy",
-    "issuer_name": "Easy Club (Cencosud / Scotiabank)",
-    "parser_strategy": "easy_v1",
-    "sources": [
-      { "source_id": "easy_home", "url": "https://www.easy.cl/easy-club", "category_hint": "General" }
-    ]
-  },
-  {
-    "segment": "Retail & Comercio",
-    "issuer_id": "copec",
-    "issuer_name": "Copec / Copec Voltex",
-    "parser_strategy": "copec_v1",
-    "sources": [
-      { "source_id": "copec_home", "url": "https://www.copec.cl/beneficios", "category_hint": "Combustible" }
-    ]
-  },
-  {
-    "segment": "Retail & Comercio",
-    "issuer_id": "shell",
-    "issuer_name": "Shell",
-    "parser_strategy": "shell_v1",
-    "sources": [
-      { "source_id": "shell_home", "url": "https://www.shell.cl/beneficios", "category_hint": "Combustible" }
-    ]
-  },
+      "segment": "Retail & Comercio",
+      "issuer_id": "ok_market",
+      "issuer_name": "OK Market / Unired",
+      "parser_strategy": "okmarket_v1",
+      "sources": [
+        {
+          "source_id": "okmarket_home",
+          "url": "https://okmarket.cl/",
+          "category_hint": "Home"
+        }
+      ]
+    },
   {
     "segment": "Isapres & Salud",
     "issuer_id": "cruz_blanca",
