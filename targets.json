@@ -979,7 +979,7 @@
       "segment": "Retail & Comercio",
       "issuer_id": "ripley_retail",
       "issuer_name": "Ripley (retail + tarjeta)",
-      "parser_strategy": "ripley_v1", // Usamos la misma estrategia que Banco Ripley
+      "parser_strategy": "ripley_v1",
       "sources": [
         {
           "source_id": "rip_beneficios_home",
