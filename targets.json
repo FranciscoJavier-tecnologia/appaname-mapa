@@ -416,14 +416,53 @@
       ]
     },
   {
-    "segment": "Bancos & Tarjetas",
-    "issuer_id": "banco_ripley",
-    "issuer_name": "Banco Ripley / Tarjeta Ripley",
-    "parser_strategy": "bancoripley_v1",
-    "sources": [
-      { "source_id": "brip_home", "url": "https://www.bancoripley.cl/beneficios", "category_hint": "General" }
-    ]
-  },
+      "segment": "Bancos & Tarjetas",
+      "issuer_id": "banco_ripley",
+      "issuer_name": "Banco Ripley / Tarjeta Ripley",
+      "parser_strategy": "bancoripley_v1",
+      "sources": [
+        {
+          "source_id": "brip_beneficios_home",
+          "url": "https://www.bancoripley.cl/beneficios-y-promociones",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "brip_restaurantes",
+          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-restaurantes",
+          "category_hint": "Restaurantes"
+        },
+        {
+          "source_id": "brip_restofans",
+          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-restofans",
+          "category_hint": "Restaurantes Fans"
+        },
+        {
+          "source_id": "brip_delivery",
+          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-comidadelivery",
+          "category_hint": "Delivery"
+        },
+        {
+          "source_id": "brip_bienestar",
+          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-bienestar-belleza",
+          "category_hint": "Bienestar"
+        },
+        {
+          "source_id": "brip_viajes",
+          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-viajes-transportes",
+          "category_hint": "Viajes"
+        },
+        {
+          "source_id": "brip_mastercard_black",
+          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-mastercardblack",
+          "category_hint": "Mastercard Black"
+        },
+        {
+          "source_id": "brip_entretencion",
+          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-entretencionyotros",
+          "category_hint": "Entretención"
+        }
+      ]
+    },
   {
     "segment": "Bancos & Tarjetas",
     "issuer_id": "mercado_pago",
