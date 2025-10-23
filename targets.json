@@ -292,14 +292,58 @@
       ]
     },
   {
-    "segment": "Bancos & Tarjetas",
-    "issuer_id": "scotiabank",
-    "issuer_name": "Scotiabank Chile",
-    "parser_strategy": "scotiabank_v1",
-    "sources": [
-      { "source_id": "scot_home", "url": "https://www.scotiabankchile.cl/beneficios", "category_hint": "General" }
-    ]
-  },
+      "segment": "Bancos & Tarjetas",
+      "issuer_id": "scotiabank",
+      "issuer_name": "Scotiabank Chile",
+      "parser_strategy": "scotiabank_v1",
+      "sources": [
+        {
+          "source_id": "scot_beneficios_home",
+          "url": "https://beneficios.scotiabank.cl/scclubfront",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "scot_descuentos",
+          "url": "https://beneficios.scotiabank.cl/scclubfront/categoria/mundos/descuentos",
+          "category_hint": "Descuentos"
+        },
+        {
+          "source_id": "scot_cuotas",
+          "url": "https://beneficios.scotiabank.cl/scclubfront/categoria/mundos/cuotassininteres",
+          "category_hint": "Cuotas"
+        },
+        {
+          "source_id": "scot_especial_mes",
+          "url": "https://beneficios.scotiabank.cl/scclubfront/categoria/mundos/especialdelmes",
+          "category_hint": "Especial del Mes"
+        },
+        {
+          "source_id": "scot_misiones",
+          "url": "https://beneficios.scotiabank.cl/scclubfront/categoria/mundos/misionesdebeneficios",
+          "category_hint": "Misiones"
+        },
+        {
+          "source_id": "scot_viajes",
+          "url": "https://beneficios.scotiabank.cl/scclubfront/categoria/mundos/viajes",
+          "category_hint": "Viajes"
+        },
+        {
+          "source_id": "scot_copec",
+          "url": "https://beneficios.scotiabank.cl/scclubfront/categoria/mundos/copec",
+          "category_hint": "Combustible"
+        },
+        {
+          "source_id": "scot_nuevos_clientes",
+          "url": "https://beneficios.scotiabank.cl/scclubfront/categoria/mundos/nuevosclientes",
+          "category_hint": "Nuevos Clientes"
+        },
+        {
+          "source_id": "scot_landing_cta",
+          "url": "https://www.scotiabankchile.cl/planes-cuenta-corriente?utm_source=google-ads&utm_medium=rsa&utm_campaign=onboarding-ao&utm_content=prospectos-generico&gclsrc=aw.ds&gad_source=1&gad_campaignid=21847331431&gbraid=0AAAAACtqG-DjRrfvZ7PLgFRGGktlISdbg&gclid=CjwKCAjwgeLHBhBuEiwAL5gNEZre7p1Lq5j24WZwyODybv9-jAXRG0gJBdw1bqZcKl0QYx640twXAxoCKRMQAvD_BwE",
+          "category_hint": "Landing"
+        }
+      ]
+    },
   {
     "segment": "Bancos & Tarjetas",
     "issuer_id": "itau",
