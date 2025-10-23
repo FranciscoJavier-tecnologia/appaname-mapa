@@ -383,14 +383,38 @@
       ]
     },
   {
-    "segment": "Bancos & Tarjetas",
-    "issuer_id": "banco_falabella",
-    "issuer_name": "Banco Falabella / CMR Falabella",
-    "parser_strategy": "bancofalabella_v1",
-    "sources": [
-      { "source_id": "bfal_home", "url": "https://www.bancofalabella.cl/descuentos", "category_hint": "General" }
-    ]
-  },
+      "segment": "Bancos & Tarjetas",
+      "issuer_id": "banco_falabella",
+      "issuer_name": "Banco Falabella / CMR Falabella",
+      "parser_strategy": "bancofalabella_v1",
+      "sources": [
+        {
+          "source_id": "bfal_descuentos_home",
+          "url": "https://www.bancofalabella.cl/descuentos",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "bfal_antojos",
+          "url": "https://www.bancofalabella.cl/descuentos/antojos",
+          "category_hint": "Restaurantes"
+        },
+        {
+          "source_id": "bfal_club_restaurantes",
+          "url": "https://www.bancofalabella.cl/descuentos/detalle/club-de-restaurantes",
+          "category_hint": "Restaurantes"
+        },
+        {
+          "source_id": "bfal_todos",
+          "url": "https://www.bancofalabella.cl/descuentos/todos",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "bfal_mccombo",
+          "url": "https://www.bancofalabella.cl/descuentos/detalle/mccombodelmes",
+          "category_hint": "Restaurantes"
+        }
+      ]
+    },
   {
     "segment": "Bancos & Tarjetas",
     "issuer_id": "banco_ripley",
