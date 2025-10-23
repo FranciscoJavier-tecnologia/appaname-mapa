@@ -345,14 +345,43 @@
       ]
     },
   {
-    "segment": "Bancos & Tarjetas",
-    "issuer_id": "itau",
-    "issuer_name": "Itaú Chile",
-    "parser_strategy": "itau_v1",
-    "sources": [
-      { "source_id": "itau_home", "url": "https://www.itau.cl/beneficios", "category_hint": "General" }
-    ]
-  },
+      "segment": "Bancos & Tarjetas",
+      "issuer_id": "itau",
+      "issuer_name": "Itaú Chile",
+      "parser_strategy": "itau_v1",
+      "sources": [
+        {
+          "source_id": "itau_beneficios_home",
+          "url": "https://itaubeneficios.cl/",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "itau_promos_mes",
+          "url": "https://itaubeneficios.cl/promociones-del-mes/",
+          "category_hint": "Promociones del Mes"
+        },
+        {
+          "source_id": "itau_cocha",
+          "url": "https://www.cocha.com/itau/",
+          "category_hint": "Viajes"
+        },
+        {
+          "source_id": "itau_landing_cta",
+          "url": "https://www.itau.cl/personas/plan-cuenta-corriente?gad_source=1&gad_campaignid=22025898652&gbraid=0AAAAA9ah71qCilegvpYo_YmAzBg0hHCVf&gclid=CjwKCAjwgeLHBhBuEiwAL5gNEVbrc-yrfarIii4lSXfHhKm5xui3GK2O9Nq_IQzUlEtlNSjsNLty3RoCmucQAvD_BwE",
+          "category_hint": "Landing"
+        },
+        {
+          "source_id": "itau_cocha_general",
+          "url": "https://www.cocha.com/",
+          "category_hint": "Viajes"
+        },
+        {
+          "source_id": "itau_tienda_productos",
+          "url": "https://tiendaproductos.cl/",
+          "category_hint": "Tienda"
+        }
+      ]
+    },
   {
     "segment": "Bancos & Tarjetas",
     "issuer_id": "banco_falabella",
