@@ -497,14 +497,48 @@
     ]
   },
   {
-    "segment": "Retail & Comercio",
-    "issuer_id": "jumbo_mas",
-    "issuer_name": "Club Jumbo Más / Jumbo (Cencosud)",
-    "parser_strategy": "jumbo_v1",
-    "sources": [
-      { "source_id": "jumbo_home", "url": "https://www.jumbo.cl/beneficios-club", "category_hint": "General" }
-    ]
-  },
+      "segment": "Retail & Comercio",
+      "issuer_id": "jumbo_mas",
+      "issuer_name": "Club Jumbo Más / Jumbo (Cencosud)",
+      "parser_strategy": "jumbo_v1",
+      "sources": [
+        {
+          "source_id": "jumbo_beneficios_club",
+          "url": "https://www.jumbo.cl/beneficios-club",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "jumbo_home",
+          "url": "https://www.jumbo.cl/",
+          "category_hint": "Home"
+        },
+        {
+          "source_id": "jumbo_prime",
+          "url": "https://www.jumbo.cl/ofertas-prime?nombre_promo=boton-jumboprime-21012025",
+          "category_hint": "Prime"
+        },
+        {
+          "source_id": "jumbo_ofertas",
+          "url": "https://www.jumbo.cl/jumbo-ofertas?nombre_promo=boton-jumboofertas-13112023",
+          "category_hint": "Ofertas"
+        },
+        {
+          "source_id": "jumbo_tarjeta_cencosud",
+          "url": "https://www.jumbo.cl/ofertas-tarjeta-cencosud?nombre_promo=boton-ofertas-tarjeta-08082023",
+          "category_hint": "Tarjeta Cencosud"
+        },
+        {
+          "source_id": "jumbo_puntos",
+          "url": "https://www.jumbo.cl/oferta/puntos?nombre_promo=boton-ofertas-puntos-cencosud",
+          "category_hint": "Puntos Cencosud"
+        },
+        {
+          "source_id": "jumbo_cencopay",
+          "url": "https://www.jumbo.cl/cencopay?nombre_promo=boton-menu-cencopay-29062023",
+          "category_hint": "Cencopay"
+        }
+      ]
+    },
   {
     "segment": "Retail & Comercio",
     "issuer_id": "unimarc",
