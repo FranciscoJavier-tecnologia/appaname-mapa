@@ -515,14 +515,33 @@
       ]
     },
   {
-    "segment": "Bancos & Tarjetas",
-    "issuer_id": "mach",
-    "issuer_name": "MACH",
-    "parser_strategy": "mach_v1",
-    "sources": [
-      { "source_id": "mach_home", "url": "https://www.somosmach.com/beneficios", "category_hint": "General" }
-    ]
-  },
+      "segment": "Bancos & Tarjetas",
+      "issuer_id": "mach",
+      "issuer_name": "MACH",
+      "parser_strategy": "mach_v1",
+      "sources": [
+        {
+          "source_id": "mach_beneficios_home",
+          "url": "https://www.machbank.cl/beneficios",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "mach_cyber",
+          "url": "https://www.machbank.cl/beneficios?catg=Cyber",
+          "category_hint": "Cyber"
+        },
+        {
+          "source_id": "mach_restaurantes",
+          "url": "https://www.machbank.cl/beneficios?catg=restaurantes",
+          "category_hint": "Restaurantes"
+        },
+        {
+          "source_id": "mach_salud",
+          "url": "https://www.machbank.cl/beneficios?catg=salud",
+          "category_hint": "Salud"
+        }
+      ]
+    },
   {
       "segment": "Bancos & Tarjetas",
       "issuer_id": "banco_consorcio",
