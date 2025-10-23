@@ -475,6 +475,44 @@
       ]
     },
   {
+      "segment": "Bancos & Tarjetas",
+      "issuer_id": "banco_internacional",
+      "issuer_name": "Banco Internacional",
+      "parser_strategy": "bancointernacional_v1",
+      "sources": [
+        {
+          "source_id": "binter_beneficios_home",
+          "url": "https://beneficios.internacional.cl/",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "binter_tarjetas",
+          "url": "https://www.internacional.cl/productos/tarjetas",
+          "category_hint": "Tarjetas"
+        },
+        {
+          "source_id": "binter_restaurantes",
+          "url": "https://beneficios.internacional.cl/categoria/seccioneshome/restaurantes",
+          "category_hint": "Restaurantes"
+        },
+        {
+          "source_id": "binter_cuotas",
+          "url": "https://beneficios.internacional.cl/categoria/seccioneshome/cuotasininteres",
+          "category_hint": "Cuotas"
+        },
+        {
+          "source_id": "binter_cashback",
+          "url": "https://beneficios.internacional.cl/categoria/seccioneshome/cashback",
+          "category_hint": "Cashback"
+        },
+        {
+          "source_id": "binter_cocha",
+          "url": "https://www.cocha.com/",
+          "category_hint": "Viajes"
+        }
+      ]
+    },
+  {
     "segment": "Cajas de compensación",
     "issuer_id": "caja_los_andes",
     "issuer_name": "Caja Los Andes",
