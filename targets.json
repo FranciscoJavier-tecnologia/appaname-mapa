@@ -452,6 +452,29 @@
     ]
   },
   {
+      "segment": "Bancos & Tarjetas",
+      "issuer_id": "banco_consorcio",
+      "issuer_name": "Banco Consorcio",
+      "parser_strategy": "bancoconsorcio_v1",
+      "sources": [
+        {
+          "source_id": "consorcio_beneficios",
+          "url": "https://sitio.consorcio.cl/beneficios",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "consorcio_landing_cta",
+          "url": "https://sitio.consorcio.cl/banca-personas/cuenta-corriente?gad_source=1&gad_campaignid=22538882067&gbraid=0AAAAACkH9fnnoaEirUhaJ8oxaB4n6CgOm&gclid=CjwKCAjwgeLHBhBuEiwAL5gNEU7Z9NsOKGYYuv8ClORHyKmHjq1ofe89LON3ZGvIzK1Rr6jJmt20tBoCEHUQAvD_BwE",
+          "category_hint": "Landing"
+        },
+        {
+          "source_id": "consorcio_cocha",
+          "url": "https://www.cocha.com/",
+          "category_hint": "Viajes"
+        }
+      ]
+    },
+  {
     "segment": "Cajas de compensación",
     "issuer_id": "caja_los_andes",
     "issuer_name": "Caja Los Andes",
