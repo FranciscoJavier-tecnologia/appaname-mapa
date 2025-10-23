@@ -164,15 +164,133 @@
     ]
   },
   {
-    "segment": "Bancos & Tarjetas",
-    "issuer_id": "bci",
-    "issuer_name": "BCI",
-    "parser_strategy": "bci_v1",
-    "sources": [
-      { "source_id": "bci_home", "url": "https://www.bci.cl/beneficios", "category_hint": "General" },
-      { "source_id": "bci_lider", "url": "https://www.tarjetaliderbci.cl/beneficios/", "category_hint": "Lider BCI" }
-    ]
-  },
+      "segment": "Bancos & Tarjetas",
+      "issuer_id": "bci",
+      "issuer_name": "BCI",
+      "parser_strategy": "bci_v1",
+      "sources": [
+        {
+          "source_id": "bci_abrir_cuenta",
+          "url": "https://www.bci.cl/personas/abrir-cuenta-corriente?gclsrc=aw.ds&gad_source=1&gad_campaignid=18199552234&gbraid=0AAAAADsS4UD7vngSCdOIzuObQKN0ocpVE&gclid=CjwKCAjwgeLHBhBuEiwAL5gNEZU7ItMPI1x-NKdMoLLEH9JvjxTqW0Ekm6x7Gj5ti9dBOcZyUIIlSxoCC8MQAvD_BwE",
+          "category_hint": "Landing"
+        },
+        {
+          "source_id": "bci_beneficios_home",
+          "url": "https://www.bci.cl/beneficios",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "bci_beneficios_bci",
+          "url": "https://www.bci.cl/beneficios/beneficios-bci",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "bci_todas",
+          "url": "https://www.bci.cl/beneficios/beneficios-bci/todas",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "bci_descuentos",
+          "url": "https://www.bci.cl/beneficios/beneficios-bci/descuentos",
+          "category_hint": "Descuentos"
+        },
+        {
+          "source_id": "bci_cashback",
+          "url": "https://www.bci.cl/beneficios/beneficios-bci/cashback",
+          "category_hint": "Cashback"
+        },
+        {
+          "source_id": "bci_activalo_y_usalo",
+          "url": "https://www.bci.cl/beneficios/beneficios-bci/activalo-y-usalo",
+          "category_hint": "Activación"
+        },
+        {
+          "source_id": "bci_paga_en_cuotas",
+          "url": "https://www.bci.cl/beneficios/beneficios-bci/paga-en-cuotas",
+          "category_hint": "Cuotas"
+        },
+        {
+          "source_id": "bci_black_signature",
+          "url": "https://www.bci.cl/beneficios/beneficios-bci/black-signature-infinite",
+          "category_hint": "Alta Renta"
+        },
+        {
+          "source_id": "bci_viajes",
+          "url": "https://www.bci.cl/beneficios/beneficios-bci/viajes",
+          "category_hint": "Viajes"
+        },
+        {
+          "source_id": "bci_deportes",
+          "url": "https://www.bci.cl/beneficios/beneficios-bci/deportes",
+          "category_hint": "Deportes"
+        },
+        {
+          "source_id": "bci_restaurantes",
+          "url": "https://www.bci.cl/beneficios/beneficios-bci/restaurantes",
+          "category_hint": "Restaurantes"
+        },
+        {
+          "source_id": "bci_antojos",
+          "url": "https://www.bci.cl/beneficios/beneficios-bci/antojos",
+          "category_hint": "Gastronomía"
+        },
+        {
+          "source_id": "bci_entretencion",
+          "url": "https://www.bci.cl/beneficios/beneficios-bci/entretencion",
+          "category_hint": "Entretención"
+        },
+        {
+          "source_id": "bci_supermercados",
+          "url": "https://www.bci.cl/beneficios/beneficios-bci/supermercados",
+          "category_hint": "Supermercados"
+        },
+        {
+          "source_id": "bci_bienestar",
+          "url": "https://www.bci.cl/beneficios/beneficios-bci/bienestar",
+          "category_hint": "Bienestar"
+        },
+        {
+          "source_id": "bci_tecnologia",
+          "url": "https://www.bci.cl/beneficios/beneficios-bci/tecnologia-y-marketplace",
+          "category_hint": "Tecnología"
+        },
+        {
+          "source_id": "bci_moda",
+          "url": "https://www.bci.cl/beneficios/beneficios-bci/moda-y-vestuario",
+          "category_hint": "Moda"
+        },
+        {
+          "source_id": "bci_mall_vivo",
+          "url": "https://www.bci.cl/beneficios/beneficios-bci/mall-vivo-los-trapenses",
+          "category_hint": "Retail"
+        },
+        {
+          "source_id": "bci_mallplaza",
+          "url": "https://www.bci.cl/beneficios/beneficios-bci/mallplaza",
+          "category_hint": "Retail"
+        },
+        {
+          "source_id": "bci_mas_beneficios",
+          "url": "https://www.bci.cl/beneficios/beneficios-bci/mas-beneficios",
+          "category_hint": "General"
+        },
+        {
+          "source_id": "bci_vida_sostenible",
+          "url": "https://www.bci.cl/beneficios/beneficios-bci/vida-sostenible",
+          "category_hint": "Sostenible"
+        },
+        {
+          "source_id": "bci_cocha_alianza",
+          "url": "https://www.cocha.com/",
+          "category_hint": "Viajes"
+        },
+        {
+          "source_id": "bci_lider_descuentos",
+          "url": "https://www.liderbci.cl/descuentos",
+          "category_hint": "Lider BCI"
+        }
+      ]
+    },
   {
     "segment": "Bancos & Tarjetas",
     "issuer_id": "scotiabank",
