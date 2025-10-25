@@ -1451,11 +1451,11 @@
           "url": "https://www.andessalud.cl/beneficios-fonasa/",
           "category_hint": "Convenio AndesSalud"
         },
-        { // Último link de Fonasa
+        { 
           "source_id": "fon_integramedica",
           "url": "https://www.integramedica.cl/planes-y-convenios/convenios/fonasa",
           "category_hint": "Convenio Integramedica"
-        } // Cierra el último link (¡SIN coma!)
-      ] // Cierra el array "sources" de Fonasa
-    } // Cierra el objeto de Fonasa (¡SIN coma porque es el último emisor!)
-  ] // Cierra el array principal que contiene todos los emisores
+        } 
+      ] 
+    } 
+  ] 
