@@ -164,1300 +164,1298 @@
     ]
   },
   {
-      "segment": "Bancos & Tarjetas",
-      "issuer_id": "bci",
-      "issuer_name": "BCI",
-      "parser_strategy": "bci_v1",
-      "sources": [
-        {
-          "source_id": "bci_abrir_cuenta",
-          "url": "https://www.bci.cl/personas/abrir-cuenta-corriente?gclsrc=aw.ds&gad_source=1&gad_campaignid=18199552234&gbraid=0AAAAADsS4UD7vngSCdOIzuObQKN0ocpVE&gclid=CjwKCAjwgeLHBhBuEiwAL5gNEZU7ItMPI1x-NKdMoLLEH9JvjxTqW0Ekm6x7Gj5ti9dBOcZyUIIlSxoCC8MQAvD_BwE",
-          "category_hint": "Landing"
-        },
-        {
-          "source_id": "bci_beneficios_home",
-          "url": "https://www.bci.cl/beneficios",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "bci_beneficios_bci",
-          "url": "https://www.bci.cl/beneficios/beneficios-bci",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "bci_todas",
-          "url": "https://www.bci.cl/beneficios/beneficios-bci/todas",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "bci_descuentos",
-          "url": "https://www.bci.cl/beneficios/beneficios-bci/descuentos",
-          "category_hint": "Descuentos"
-        },
-        {
-          "source_id": "bci_cashback",
-          "url": "https://www.bci.cl/beneficios/beneficios-bci/cashback",
-          "category_hint": "Cashback"
-        },
-        {
-          "source_id": "bci_activalo_y_usalo",
-          "url": "https://www.bci.cl/beneficios/beneficios-bci/activalo-y-usalo",
-          "category_hint": "Activación"
-        },
-        {
-          "source_id": "bci_paga_en_cuotas",
-          "url": "https://www.bci.cl/beneficios/beneficios-bci/paga-en-cuotas",
-          "category_hint": "Cuotas"
-        },
-        {
-          "source_id": "bci_black_signature",
-          "url": "https://www.bci.cl/beneficios/beneficios-bci/black-signature-infinite",
-          "category_hint": "Alta Renta"
-        },
-        {
-          "source_id": "bci_viajes",
-          "url": "https://www.bci.cl/beneficios/beneficios-bci/viajes",
-          "category_hint": "Viajes"
-        },
-        {
-          "source_id": "bci_deportes",
-          "url": "https://www.bci.cl/beneficios/beneficios-bci/deportes",
-          "category_hint": "Deportes"
-        },
-        {
-          "source_id": "bci_restaurantes",
-          "url": "https://www.bci.cl/beneficios/beneficios-bci/restaurantes",
-          "category_hint": "Restaurantes"
-        },
-        {
-          "source_id": "bci_antojos",
-          "url": "https://www.bci.cl/beneficios/beneficios-bci/antojos",
-          "category_hint": "Gastronomía"
-        },
-        {
-          "source_id": "bci_entretencion",
-          "url": "https://www.bci.cl/beneficios/beneficios-bci/entretencion",
-          "category_hint": "Entretención"
-        },
-        {
-          "source_id": "bci_supermercados",
-          "url": "https://www.bci.cl/beneficios/beneficios-bci/supermercados",
-          "category_hint": "Supermercados"
-        },
-        {
-          "source_id": "bci_bienestar",
-          "url": "https://www.bci.cl/beneficios/beneficios-bci/bienestar",
-          "category_hint": "Bienestar"
-        },
-        {
-          "source_id": "bci_tecnologia",
-          "url": "https://www.bci.cl/beneficios/beneficios-bci/tecnologia-y-marketplace",
-          "category_hint": "Tecnología"
-        },
-        {
-          "source_id": "bci_moda",
-          "url": "https://www.bci.cl/beneficios/beneficios-bci/moda-y-vestuario",
-          "category_hint": "Moda"
-        },
-        {
-          "source_id": "bci_mall_vivo",
-          "url": "https://www.bci.cl/beneficios/beneficios-bci/mall-vivo-los-trapenses",
-          "category_hint": "Retail"
-        },
-        {
-          "source_id": "bci_mallplaza",
-          "url": "https://www.bci.cl/beneficios/beneficios-bci/mallplaza",
-          "category_hint": "Retail"
-        },
-        {
-          "source_id": "bci_mas_beneficios",
-          "url": "https://www.bci.cl/beneficios/beneficios-bci/mas-beneficios",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "bci_vida_sostenible",
-          "url": "https://www.bci.cl/beneficios/beneficios-bci/vida-sostenible",
-          "category_hint": "Sostenible"
-        },
-        {
-          "source_id": "bci_cocha_alianza",
-          "url": "https://www.cocha.com/",
-          "category_hint": "Viajes"
-        },
-        {
-          "source_id": "bci_lider_descuentos",
-          "url": "https://www.liderbci.cl/descuentos",
-          "category_hint": "Lider BCI"
-        }
-      ]
-    },
+    "segment": "Bancos & Tarjetas",
+    "issuer_id": "bci",
+    "issuer_name": "BCI",
+    "parser_strategy": "bci_v1",
+    "sources": [
+      {
+        "source_id": "bci_abrir_cuenta",
+        "url": "https://www.bci.cl/personas/abrir-cuenta-corriente?gclsrc=aw.ds&gad_source=1&gad_campaignid=18199552234&gbraid=0AAAAADsS4UD7vngSCdOIzuObQKN0ocpVE&gclid=CjwKCAjwgeLHBhBuEiwAL5gNEZU7ItMPI1x-NKdMoLLEH9JvjxTqW0Ekm6x7Gj5ti9dBOcZyUIIlSxoCC8MQAvD_BwE",
+        "category_hint": "Landing"
+      },
+      {
+        "source_id": "bci_beneficios_home",
+        "url": "https://www.bci.cl/beneficios",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "bci_beneficios_bci",
+        "url": "https://www.bci.cl/beneficios/beneficios-bci",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "bci_todas",
+        "url": "https://www.bci.cl/beneficios/beneficios-bci/todas",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "bci_descuentos",
+        "url": "https://www.bci.cl/beneficios/beneficios-bci/descuentos",
+        "category_hint": "Descuentos"
+      },
+      {
+        "source_id": "bci_cashback",
+        "url": "https://www.bci.cl/beneficios/beneficios-bci/cashback",
+        "category_hint": "Cashback"
+      },
+      {
+        "source_id": "bci_activalo_y_usalo",
+        "url": "https://www.bci.cl/beneficios/beneficios-bci/activalo-y-usalo",
+        "category_hint": "Activación"
+      },
+      {
+        "source_id": "bci_paga_en_cuotas",
+        "url": "https://www.bci.cl/beneficios/beneficios-bci/paga-en-cuotas",
+        "category_hint": "Cuotas"
+      },
+      {
+        "source_id": "bci_black_signature",
+        "url": "https://www.bci.cl/beneficios/beneficios-bci/black-signature-infinite",
+        "category_hint": "Alta Renta"
+      },
+      {
+        "source_id": "bci_viajes",
+        "url": "https://www.bci.cl/beneficios/beneficios-bci/viajes",
+        "category_hint": "Viajes"
+      },
+      {
+        "source_id": "bci_deportes",
+        "url": "https://www.bci.cl/beneficios/beneficios-bci/deportes",
+        "category_hint": "Deportes"
+      },
+      {
+        "source_id": "bci_restaurantes",
+        "url": "https://www.bci.cl/beneficios/beneficios-bci/restaurantes",
+        "category_hint": "Restaurantes"
+      },
+      {
+        "source_id": "bci_antojos",
+        "url": "https://www.bci.cl/beneficios/beneficios-bci/antojos",
+        "category_hint": "Gastronomía"
+      },
+      {
+        "source_id": "bci_entretencion",
+        "url": "https://www.bci.cl/beneficios/beneficios-bci/entretencion",
+        "category_hint": "Entretención"
+      },
+      {
+        "source_id": "bci_supermercados",
+        "url": "https://www.bci.cl/beneficios/beneficios-bci/supermercados",
+        "category_hint": "Supermercados"
+      },
+      {
+        "source_id": "bci_bienestar",
+        "url": "https://www.bci.cl/beneficios/beneficios-bci/bienestar",
+        "category_hint": "Bienestar"
+      },
+      {
+        "source_id": "bci_tecnologia",
+        "url": "https://www.bci.cl/beneficios/beneficios-bci/tecnologia-y-marketplace",
+        "category_hint": "Tecnología"
+      },
+      {
+        "source_id": "bci_moda",
+        "url": "https://www.bci.cl/beneficios/beneficios-bci/moda-y-vestuario",
+        "category_hint": "Moda"
+      },
+      {
+        "source_id": "bci_mall_vivo",
+        "url": "https://www.bci.cl/beneficios/beneficios-bci/mall-vivo-los-trapenses",
+        "category_hint": "Retail"
+      },
+      {
+        "source_id": "bci_mallplaza",
+        "url": "https://www.bci.cl/beneficios/beneficios-bci/mallplaza",
+        "category_hint": "Retail"
+      },
+      {
+        "source_id": "bci_mas_beneficios",
+        "url": "https://www.bci.cl/beneficios/beneficios-bci/mas-beneficios",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "bci_vida_sostenible",
+        "url": "https://www.bci.cl/beneficios/beneficios-bci/vida-sostenible",
+        "category_hint": "Sostenible"
+      },
+      {
+        "source_id": "bci_cocha_alianza",
+        "url": "https://www.cocha.com/",
+        "category_hint": "Viajes"
+      },
+      {
+        "source_id": "bci_lider_descuentos",
+        "url": "https://www.liderbci.cl/descuentos",
+        "category_hint": "Lider BCI"
+      }
+    ]
+  },
   {
-      "segment": "Bancos & Tarjetas",
-      "issuer_id": "scotiabank",
-      "issuer_name": "Scotiabank Chile",
-      "parser_strategy": "scotiabank_v1",
-      "sources": [
-        {
-          "source_id": "scot_beneficios_home",
-          "url": "https://beneficios.scotiabank.cl/scclubfront",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "scot_descuentos",
-          "url": "https://beneficios.scotiabank.cl/scclubfront/categoria/mundos/descuentos",
-          "category_hint": "Descuentos"
-        },
-        {
-          "source_id": "scot_cuotas",
-          "url": "https://beneficios.scotiabank.cl/scclubfront/categoria/mundos/cuotassininteres",
-          "category_hint": "Cuotas"
-        },
-        {
-          "source_id": "scot_especial_mes",
-          "url": "https://beneficios.scotiabank.cl/scclubfront/categoria/mundos/especialdelmes",
-          "category_hint": "Especial del Mes"
-        },
-        {
-          "source_id": "scot_misiones",
-          "url": "https://beneficios.scotiabank.cl/scclubfront/categoria/mundos/misionesdebeneficios",
-          "category_hint": "Misiones"
-        },
-        {
-          "source_id": "scot_viajes",
-          "url": "https://beneficios.scotiabank.cl/scclubfront/categoria/mundos/viajes",
-          "category_hint": "Viajes"
-        },
-        {
-          "source_id": "scot_copec",
-          "url": "https://beneficios.scotiabank.cl/scclubfront/categoria/mundos/copec",
-          "category_hint": "Combustible"
-        },
-        {
-          "source_id": "scot_nuevos_clientes",
-          "url": "https://beneficios.scotiabank.cl/scclubfront/categoria/mundos/nuevosclientes",
-          "category_hint": "Nuevos Clientes"
-        },
-        {
-          "source_id": "scot_landing_cta",
-          "url": "https://www.scotiabankchile.cl/planes-cuenta-corriente?utm_source=google-ads&utm_medium=rsa&utm_campaign=onboarding-ao&utm_content=prospectos-generico&gclsrc=aw.ds&gad_source=1&gad_campaignid=21847331431&gbraid=0AAAAACtqG-DjRrfvZ7PLgFRGGktlISdbg&gclid=CjwKCAjwgeLHBhBuEiwAL5gNEZre7p1Lq5j24WZwyODybv9-jAXRG0gJBdw1bqZcKl0QYx640twXAxoCKRMQAvD_BwE",
-          "category_hint": "Landing"
-        }
-      ]
-    },
+    "segment": "Bancos & Tarjetas",
+    "issuer_id": "scotiabank",
+    "issuer_name": "Scotiabank Chile",
+    "parser_strategy": "scotiabank_v1",
+    "sources": [
+      {
+        "source_id": "scot_beneficios_home",
+        "url": "https://beneficios.scotiabank.cl/scclubfront",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "scot_descuentos",
+        "url": "https://beneficios.scotiabank.cl/scclubfront/categoria/mundos/descuentos",
+        "category_hint": "Descuentos"
+      },
+      {
+        "source_id": "scot_cuotas",
+        "url": "https://beneficios.scotiabank.cl/scclubfront/categoria/mundos/cuotassininteres",
+        "category_hint": "Cuotas"
+      },
+      {
+        "source_id": "scot_especial_mes",
+        "url": "https://beneficios.scotiabank.cl/scclubfront/categoria/mundos/especialdelmes",
+        "category_hint": "Especial del Mes"
+      },
+      {
+        "source_id": "scot_misiones",
+        "url": "https://beneficios.scotiabank.cl/scclubfront/categoria/mundos/misionesdebeneficios",
+        "category_hint": "Misiones"
+      },
+      {
+        "source_id": "scot_viajes",
+        "url": "https://beneficios.scotiabank.cl/scclubfront/categoria/mundos/viajes",
+        "category_hint": "Viajes"
+      },
+      {
+        "source_id": "scot_copec",
+        "url": "https://beneficios.scotiabank.cl/scclubfront/categoria/mundos/copec",
+        "category_hint": "Combustible"
+      },
+      {
+        "source_id": "scot_nuevos_clientes",
+        "url": "https://beneficios.scotiabank.cl/scclubfront/categoria/mundos/nuevosclientes",
+        "category_hint": "Nuevos Clientes"
+      },
+      {
+        "source_id": "scot_landing_cta",
+        "url": "https://www.scotiabankchile.cl/planes-cuenta-corriente?utm_source=google-ads&utm_medium=rsa&utm_campaign=onboarding-ao&utm_content=prospectos-generico&gclsrc=aw.ds&gad_source=1&gad_campaignid=21847331431&gbraid=0AAAAACtqG-DjRrfvZ7PLgFRGGktlISdbg&gclid=CjwKCAjwgeLHBhBuEiwAL5gNEZre7p1Lq5j24WZwyODybv9-jAXRG0gJBdw1bqZcKl0QYx640twXAxoCKRMQAvD_BwE",
+        "category_hint": "Landing"
+      }
+    ]
+  },
   {
-      "segment": "Bancos & Tarjetas",
-      "issuer_id": "itau",
-      "issuer_name": "Itaú Chile",
-      "parser_strategy": "itau_v1",
-      "sources": [
-        {
-          "source_id": "itau_beneficios_home",
-          "url": "https://itaubeneficios.cl/",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "itau_promos_mes",
-          "url": "https://itaubeneficios.cl/promociones-del-mes/",
-          "category_hint": "Promociones del Mes"
-        },
-        {
-          "source_id": "itau_cocha",
-          "url": "https://www.cocha.com/itau/",
-          "category_hint": "Viajes"
-        },
-        {
-          "source_id": "itau_landing_cta",
-          "url": "https://www.itau.cl/personas/plan-cuenta-corriente?gad_source=1&gad_campaignid=22025898652&gbraid=0AAAAA9ah71qCilegvpYo_YmAzBg0hHCVf&gclid=CjwKCAjwgeLHBhBuEiwAL5gNEVbrc-yrfarIii4lSXfHhKm5xui3GK2O9Nq_IQzUlEtlNSjsNLty3RoCmucQAvD_BwE",
-          "category_hint": "Landing"
-        },
-        {
-          "source_id": "itau_cocha_general",
-          "url": "https://www.cocha.com/",
-          "category_hint": "Viajes"
-        },
-        {
-          "source_id": "itau_tienda_productos",
-          "url": "https://tiendaproductos.cl/",
-          "category_hint": "Tienda"
-        }
-      ]
-    },
+    "segment": "Bancos & Tarjetas",
+    "issuer_id": "itau",
+    "issuer_name": "Itaú Chile",
+    "parser_strategy": "itau_v1",
+    "sources": [
+      {
+        "source_id": "itau_beneficios_home",
+        "url": "https://itaubeneficios.cl/",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "itau_promos_mes",
+        "url": "https://itaubeneficios.cl/promociones-del-mes/",
+        "category_hint": "Promociones del Mes"
+      },
+      {
+        "source_id": "itau_cocha",
+        "url": "https://www.cocha.com/itau/",
+        "category_hint": "Viajes"
+      },
+      {
+        "source_id": "itau_landing_cta",
+        "url": "https://www.itau.cl/personas/plan-cuenta-corriente?gad_source=1&gad_campaignid=22025898652&gbraid=0AAAAA9ah71qCilegvpYo_YmAzBg0hHCVf&gclid=CjwKCAjwgeLHBhBuEiwAL5gNEVbrc-yrfarIii4lSXfHhKm5xui3GK2O9Nq_IQzUlEtlNSjsNLty3RoCmucQAvD_BwE",
+        "category_hint": "Landing"
+      },
+      {
+        "source_id": "itau_cocha_general",
+        "url": "https://www.cocha.com/",
+        "category_hint": "Viajes"
+      },
+      {
+        "source_id": "itau_tienda_productos",
+        "url": "https://tiendaproductos.cl/",
+        "category_hint": "Tienda"
+      }
+    ]
+  },
   {
-      "segment": "Bancos & Tarjetas",
-      "issuer_id": "banco_falabella",
-      "issuer_name": "Banco Falabella / CMR Falabella",
-      "parser_strategy": "bancofalabella_v1",
-      "sources": [
-        {
-          "source_id": "bfal_descuentos_home",
-          "url": "https://www.bancofalabella.cl/descuentos",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "bfal_antojos",
-          "url": "https://www.bancofalabella.cl/descuentos/antojos",
-          "category_hint": "Restaurantes"
-        },
-        {
-          "source_id": "bfal_club_restaurantes",
-          "url": "https://www.bancofalabella.cl/descuentos/detalle/club-de-restaurantes",
-          "category_hint": "Restaurantes"
-        },
-        {
-          "source_id": "bfal_todos",
-          "url": "https://www.bancofalabella.cl/descuentos/todos",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "bfal_mccombo",
-          "url": "https://www.bancofalabella.cl/descuentos/detalle/mccombodelmes",
-          "category_hint": "Restaurantes"
-        }
-      ]
-    },
+    "segment": "Bancos & Tarjetas",
+    "issuer_id": "banco_falabella",
+    "issuer_name": "Banco Falabella / CMR Falabella",
+    "parser_strategy": "bancofalabella_v1",
+    "sources": [
+      {
+        "source_id": "bfal_descuentos_home",
+        "url": "https://www.bancofalabella.cl/descuentos",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "bfal_antojos",
+        "url": "https://www.bancofalabella.cl/descuentos/antojos",
+        "category_hint": "Restaurantes"
+      },
+      {
+        "source_id": "bfal_club_restaurantes",
+        "url": "https://www.bancofalabella.cl/descuentos/detalle/club-de-restaurantes",
+        "category_hint": "Restaurantes"
+      },
+      {
+        "source_id": "bfal_todos",
+        "url": "https://www.bancofalabella.cl/descuentos/todos",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "bfal_mccombo",
+        "url": "https://www.bancofalabella.cl/descuentos/detalle/mccombodelmes",
+        "category_hint": "Restaurantes"
+      }
+    ]
+  },
   {
-      "segment": "Bancos & Tarjetas",
-      "issuer_id": "banco_ripley",
-      "issuer_name": "Banco Ripley / Tarjeta Ripley",
-      "parser_strategy": "bancoripley_v1",
-      "sources": [
-        {
-          "source_id": "brip_beneficios_home",
-          "url": "https://www.bancoripley.cl/beneficios-y-promociones",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "brip_restaurantes",
-          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-restaurantes",
-          "category_hint": "Restaurantes"
-        },
-        {
-          "source_id": "brip_restofans",
-          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-restofans",
-          "category_hint": "Restaurantes Fans"
-        },
-        {
-          "source_id": "brip_delivery",
-          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-comidadelivery",
-          "category_hint": "Delivery"
-        },
-        {
-          "source_id": "brip_bienestar",
-          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-bienestar-belleza",
-          "category_hint": "Bienestar"
-        },
-        {
-          "source_id": "brip_viajes",
-          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-viajes-transportes",
-          "category_hint": "Viajes"
-        },
-        {
-          "source_id": "brip_mastercard_black",
-          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-mastercardblack",
-          "category_hint": "Mastercard Black"
-        },
-        {
-          "source_id": "brip_entretencion",
-          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-entretencionyotros",
-          "category_hint": "Entretención"
-        }
-      ]
-    },
+    "segment": "Bancos & Tarjetas",
+    "issuer_id": "banco_ripley",
+    "issuer_name": "Banco Ripley / Tarjeta Ripley",
+    "parser_strategy": "bancoripley_v1",
+    "sources": [
+      {
+        "source_id": "brip_beneficios_home",
+        "url": "https://www.bancoripley.cl/beneficios-y-promociones",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "brip_restaurantes",
+        "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-restaurantes",
+        "category_hint": "Restaurantes"
+      },
+      {
+        "source_id": "brip_restofans",
+        "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-restofans",
+        "category_hint": "Restaurantes Fans"
+      },
+      {
+        "source_id": "brip_delivery",
+        "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-comidadelivery",
+        "category_hint": "Delivery"
+      },
+      {
+        "source_id": "brip_bienestar",
+        "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-bienestar-belleza",
+        "category_hint": "Bienestar"
+      },
+      {
+        "source_id": "brip_viajes",
+        "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-viajes-transportes",
+        "category_hint": "Viajes"
+      },
+      {
+        "source_id": "brip_mastercard_black",
+        "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-mastercardblack",
+        "category_hint": "Mastercard Black"
+      },
+      {
+        "source_id": "brip_entretencion",
+        "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-entretencionyotros",
+        "category_hint": "Entretención"
+      }
+    ]
+  },
   {
-      "segment": "Bancos & Tarjetas",
-      "issuer_id": "mercado_pago",
-      "issuer_name": "Mercado Pago",
-      "parser_strategy": "mercadopago_v1",
-      "sources": [
-        {
-          "source_id": "mp_beneficios_home",
-          "url": "https://www.mercadopago.cl/beneficios",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "mp_landing_tarjeta",
-          "url": "https://www.mercadopago.cl/landing/beneficios-tarjeta-prepago?matt_tool=95838441&utm_source=google&utm_medium=search&gad_source=1&gad_campaignid=20583209017&gbraid=0AAAAAqQ1-HTLiFSM_QaI0dVLon3pNufiI&gclid=CjwKCAjwgeLHBhBuEiwAL5gNEdLEyZ8GwVsOxRG0NOoBi5k8uK0UAZ5pjwmjz9CVSKA2FMNQb9AzNhoC3cEQAvD_BwE",
-          "category_hint": "Landing Tarjeta"
-        },
-        {
-          "source_id": "mp_ayuda_beneficios",
-          "url": "https://www.mercadopago.cl/ayuda/31124",
-          "category_hint": "Ayuda Beneficios"
-        }
-      ]
-    },
+    "segment": "Bancos & Tarjetas",
+    "issuer_id": "mercado_pago",
+    "issuer_name": "Mercado Pago",
+    "parser_strategy": "mercadopago_v1",
+    "sources": [
+      {
+        "source_id": "mp_beneficios_home",
+        "url": "https://www.mercadopago.cl/beneficios",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "mp_landing_tarjeta",
+        "url": "https://www.mercadopago.cl/landing/beneficios-tarjeta-prepago?matt_tool=95838441&utm_source=google&utm_medium=search&gad_source=1&gad_campaignid=20583209017&gbraid=0AAAAAqQ1-HTLiFSM_QaI0dVLon3pNufiI&gclid=CjwKCAjwgeLHBhBuEiwAL5gNEdLEyZ8GwVsOxRG0NOoBi5k8uK0UAZ5pjwmjz9CVSKA2FMNQb9AzNhoC3cEQAvD_BwE",
+        "category_hint": "Landing Tarjeta"
+      },
+      {
+        "source_id": "mp_ayuda_beneficios",
+        "url": "https://www.mercadopago.cl/ayuda/31124",
+        "category_hint": "Ayuda Beneficios"
+      }
+    ]
+  },
   {
-      "segment": "Bancos & Tarjetas",
-      "issuer_id": "tenpo",
-      "issuer_name": "Tenpo",
-      "parser_strategy": "tenpo_v1",
-      "sources": [
-        {
-          "source_id": "tenpo_beneficios_home",
-          "url": "https://www.tenpo.cl/beneficios",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "tenpo_landing_tdc",
-          "url": "https://www.tenpo.cl/productos/tarjeta-de-credito/home",
-          "category_hint": "Landing TDC"
-        },
-        {
-          "source_id": "tenpo_landing_ahorro",
-          "url": "https://www.tenpo.cl/productos/tarjeta-de-credito/tarjetaconahorro",
-          "category_hint": "Landing Ahorro"
-        },
-        {
-          "source_id": "tenpo_viajes",
-          "url": "https://www.tenpo.cl/viajes",
-          "category_hint": "Viajes"
-        }
-      ]
-    },
+    "segment": "Bancos & Tarjetas",
+    "issuer_id": "tenpo",
+    "issuer_name": "Tenpo",
+    "parser_strategy": "tenpo_v1",
+    "sources": [
+      {
+        "source_id": "tenpo_beneficios_home",
+        "url": "https://www.tenpo.cl/beneficios",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "tenpo_landing_tdc",
+        "url": "https://www.tenpo.cl/productos/tarjeta-de-credito/home",
+        "category_hint": "Landing TDC"
+      },
+      {
+        "source_id": "tenpo_landing_ahorro",
+        "url": "https://www.tenpo.cl/productos/tarjeta-de-credito/tarjetaconahorro",
+        "category_hint": "Landing Ahorro"
+      },
+      {
+        "source_id": "tenpo_viajes",
+        "url": "https://www.tenpo.cl/viajes",
+        "category_hint": "Viajes"
+      }
+    ]
+  },
   {
-      "segment": "Bancos & Tarjetas",
-      "issuer_id": "mach",
-      "issuer_name": "MACH",
-      "parser_strategy": "mach_v1",
-      "sources": [
-        {
-          "source_id": "mach_beneficios_home",
-          "url": "https://www.machbank.cl/beneficios",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "mach_cyber",
-          "url": "https://www.machbank.cl/beneficios?catg=Cyber",
-          "category_hint": "Cyber"
-        },
-        {
-          "source_id": "mach_restaurantes",
-          "url": "https://www.machbank.cl/beneficios?catg=restaurantes",
-          "category_hint": "Restaurantes"
-        },
-        {
-          "source_id": "mach_salud",
-          "url": "https://www.machbank.cl/beneficios?catg=salud",
-          "category_hint": "Salud"
-        }
-      ]
-    },
+    "segment": "Bancos & Tarjetas",
+    "issuer_id": "mach",
+    "issuer_name": "MACH",
+    "parser_strategy": "mach_v1",
+    "sources": [
+      {
+        "source_id": "mach_beneficios_home",
+        "url": "https://www.machbank.cl/beneficios",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "mach_cyber",
+        "url": "https://www.machbank.cl/beneficios?catg=Cyber",
+        "category_hint": "Cyber"
+      },
+      {
+        "source_id": "mach_restaurantes",
+        "url": "https://www.machbank.cl/beneficios?catg=restaurantes",
+        "category_hint": "Restaurantes"
+      },
+      {
+        "source_id": "mach_salud",
+        "url": "https://www.machbank.cl/beneficios?catg=salud",
+        "category_hint": "Salud"
+      }
+    ]
+  },
   {
-      "segment": "Bancos & Tarjetas",
-      "issuer_id": "banco_consorcio",
-      "issuer_name": "Banco Consorcio",
-      "parser_strategy": "bancoconsorcio_v1",
-      "sources": [
-        {
-          "source_id": "consorcio_beneficios",
-          "url": "https://sitio.consorcio.cl/beneficios",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "consorcio_landing_cta",
-          "url": "https://sitio.consorcio.cl/banca-personas/cuenta-corriente?gad_source=1&gad_campaignid=22538882067&gbraid=0AAAAACkH9fnnoaEirUhaJ8oxaB4n6CgOm&gclid=CjwKCAjwgeLHBhBuEiwAL5gNEU7Z9NsOKGYYuv8ClORHyKmHjq1ofe89LON3ZGvIzK1Rr6jJmt20tBoCEHUQAvD_BwE",
-          "category_hint": "Landing"
-        },
-        {
-          "source_id": "consorcio_cocha",
-          "url": "https://www.cocha.com/",
-          "category_hint": "Viajes"
-        }
-      ]
-    },
+    "segment": "Bancos & Tarjetas",
+    "issuer_id": "banco_consorcio",
+    "issuer_name": "Banco Consorcio",
+    "parser_strategy": "bancoconsorcio_v1",
+    "sources": [
+      {
+        "source_id": "consorcio_beneficios",
+        "url": "https://sitio.consorcio.cl/beneficios",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "consorcio_landing_cta",
+        "url": "https://sitio.consorcio.cl/banca-personas/cuenta-corriente?gad_source=1&gad_campaignid=22538882067&gbraid=0AAAAACkH9fnnoaEirUhaJ8oxaB4n6CgOm&gclid=CjwKCAjwgeLHBhBuEiwAL5gNEU7Z9NsOKGYYuv8ClORHyKmHjq1ofe89LON3ZGvIzK1Rr6jJmt20tBoCEHUQAvD_BwE",
+        "category_hint": "Landing"
+      },
+      {
+        "source_id": "consorcio_cocha",
+        "url": "https://www.cocha.com/",
+        "category_hint": "Viajes"
+      }
+    ]
+  },
   {
-      "segment": "Bancos & Tarjetas",
-      "issuer_id": "banco_internacional",
-      "issuer_name": "Banco Internacional",
-      "parser_strategy": "bancointernacional_v1",
-      "sources": [
-        {
-          "source_id": "binter_beneficios_home",
-          "url": "https://beneficios.internacional.cl/",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "binter_tarjetas",
-          "url": "https://www.internacional.cl/productos/tarjetas",
-          "category_hint": "Tarjetas"
-        },
-        {
-          "source_id": "binter_restaurantes",
-          "url": "https://beneficios.internacional.cl/categoria/seccioneshome/restaurantes",
-          "category_hint": "Restaurantes"
-        },
-        {
-          "source_id": "binter_cuotas",
-          "url": "https://beneficios.internacional.cl/categoria/seccioneshome/cuotasininteres",
-          "category_hint": "Cuotas"
-        },
-        {
-          "source_id": "binter_cashback",
-          "url": "https://beneficios.internacional.cl/categoria/seccioneshome/cashback",
-          "category_hint": "Cashback"
-        },
-        {
-          "source_id": "binter_cocha",
-          "url": "https://www.cocha.com/",
-          "category_hint": "Viajes"
-        }
-      ]
-    },
+    "segment": "Bancos & Tarjetas",
+    "issuer_id": "banco_internacional",
+    "issuer_name": "Banco Internacional",
+    "parser_strategy": "bancointernacional_v1",
+    "sources": [
+      {
+        "source_id": "binter_beneficios_home",
+        "url": "https://beneficios.internacional.cl/",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "binter_tarjetas",
+        "url": "https://www.internacional.cl/productos/tarjetas",
+        "category_hint": "Tarjetas"
+      },
+      {
+        "source_id": "binter_restaurantes",
+        "url": "https://beneficios.internacional.cl/categoria/seccioneshome/restaurantes",
+        "category_hint": "Restaurantes"
+      },
+      {
+        "source_id": "binter_cuotas",
+        "url": "https://beneficios.internacional.cl/categoria/seccioneshome/cuotasininteres",
+        "category_hint": "Cuotas"
+      },
+      {
+        "source_id": "binter_cashback",
+        "url": "https://beneficios.internacional.cl/categoria/seccioneshome/cashback",
+        "category_hint": "Cashback"
+      },
+      {
+        "source_id": "binter_cocha",
+        "url": "https://www.cocha.com/",
+        "category_hint": "Viajes"
+      }
+    ]
+  },
   {
-      "segment": "Bancos & Tarjetas",
-      "issuer_id": "banco_bice",
-      "issuer_name": "Banco Bice",
-      "parser_strategy": "bancobice_v1",
-      "sources": [
-        {
-          "source_id": "bice_beneficios_home",
-          "url": "https://banco.bice.cl/personas/beneficios",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "bice_restaurante",
-          "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=restaurante",
-          "category_hint": "Restaurantes"
-        },
-        {
-          "source_id": "bice_gourmet",
-          "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=gourmet",
-          "category_hint": "Gourmet"
-        },
-        {
-          "source_id": "bice_delivery",
-          "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=delivery",
-          "category_hint": "Delivery"
-        },
-        {
-          "source_id": "bice_viajes",
-          "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=viajes-y-transporte",
-          "category_hint": "Viajes"
-        },
-        {
-          "source_id": "bice_shopping",
-          "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=shopping",
-          "category_hint": "Shopping"
-        },
-        {
-          "source_id": "bice_mascotas",
-          "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=mascotas",
-          "category_hint": "Mascotas"
-        },
-        {
-          "source_id": "bice_bienestar",
-          "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=bienestar-y-entretencion",
-          "category_hint": "Bienestar"
-        },
-        {
-          "source_id": "bice_cuotas",
-          "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=cuotas",
-          "category_hint": "Cuotas"
-        },
-        {
-          "source_id": "bice_cocha",
-          "url": "https://www.cocha.com/",
-          "category_hint": "Viajes"
-        }
-      ]
-    },
- {
-      "segment": "Cajas de compensación",
-      "issuer_id": "caja_los_andes",
-      "issuer_name": "Caja Los Andes",
-      "parser_strategy": "cajalosandes_v1",
-      "sources": [
-        {
-          "source_id": "cla_masbeneficios_home",
-          "url": "https://masbeneficios.cajalosandes.cl/",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "cla_salud",
-          "url": "https://masbeneficios.cajalosandes.cl/salud",
-          "category_hint": "Salud"
-        },
-        {
-          "source_id": "cla_bebe",
-          "url": "https://masbeneficios.cajalosandes.cl/bebe",
-          "category_hint": "Bebé/Familia"
-        },
-        {
-          "source_id": "cla_educacion",
-          "url": "https://masbeneficios.cajalosandes.cl/educacion",
-          "category_hint": "Educación"
-        },
-        {
-          "source_id": "cla_turismo_libre",
-          "url": "https://masbeneficios.cajalosandes.cl/turismo-y-tiempo-libre",
-          "category_hint": "Turismo/Tiempo Libre"
-        },
-        {
-          "source_id": "cla_hogar",
-          "url": "https://masbeneficios.cajalosandes.cl/hogar-y-servicios",
-          "category_hint": "Hogar/Servicios"
-        },
-        {
-          "source_id": "cla_deporte",
-          "url": "https://masbeneficios.cajalosandes.cl/deporte-y-vida-sana",
-          "category_hint": "Deporte/Vida Sana"
-        },
-        {
-          "source_id": "cla_pensionados",
-          "url": "https://masbeneficios.cajalosandes.cl/grandes-beneficios-para-pensionados",
-          "category_hint": "Pensionados"
-        },
-        {
-          "source_id": "cla_sostenibles",
-          "url": "https://masbeneficios.cajalosandes.cl/beneficios-sostenibles",
-          "category_hint": "Sostenibles"
-        },
-        {
-          "source_id": "cla_turismo_destinos",
-          "url": "https://www.turismocajalosandes.cl/destinos",
-          "category_hint": "Turismo Destinos"
-        },
-        {
-          "source_id": "cla_vest_moda",
-          "url": "https://masbeneficios.cajalosandes.cl/landing_categoria.php?idcat=vm",
-          "category_hint": "Vestuario/Moda"
-        }
-      ]
-    },
+    "segment": "Bancos & Tarjetas",
+    "issuer_id": "banco_bice",
+    "issuer_name": "Banco Bice",
+    "parser_strategy": "bancobice_v1",
+    "sources": [
+      {
+        "source_id": "bice_beneficios_home",
+        "url": "https://banco.bice.cl/personas/beneficios",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "bice_restaurante",
+        "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=restaurante",
+        "category_hint": "Restaurantes"
+      },
+      {
+        "source_id": "bice_gourmet",
+        "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=gourmet",
+        "category_hint": "Gourmet"
+      },
+      {
+        "source_id": "bice_delivery",
+        "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=delivery",
+        "category_hint": "Delivery"
+      },
+      {
+        "source_id": "bice_viajes",
+        "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=viajes-y-transporte",
+        "category_hint": "Viajes"
+      },
+      {
+        "source_id": "bice_shopping",
+        "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=shopping",
+        "category_hint": "Shopping"
+      },
+      {
+        "source_id": "bice_mascotas",
+        "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=mascotas",
+        "category_hint": "Mascotas"
+      },
+      {
+        "source_id": "bice_bienestar",
+        "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=bienestar-y-entretencion",
+        "category_hint": "Bienestar"
+      },
+      {
+        "source_id": "bice_cuotas",
+        "url": "https://banco.bice.cl/personas/beneficios?categoriaSeleccionada=cuotas",
+        "category_hint": "Cuotas"
+      },
+      {
+        "source_id": "bice_cocha",
+        "url": "https://www.cocha.com/",
+        "category_hint": "Viajes"
+      }
+    ]
+  },
   {
-      "segment": "Cajas de compensación",
-      "issuer_id": "caja_los_heroes",
-      "issuer_name": "Caja Los Héroes",
-      "parser_strategy": "cajalosheroes_v1",
-      "sources": [
-        {
-          "source_id": "clh_beneficios_home",
-          "url": "https://www.losheroes.cl/trabajadores/beneficios/",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "clh_beneficios_mes",
-          "url": "https://www.losheroes.cl/trabajadores/beneficios-del-mes",
-          "category_hint": "Beneficios del Mes"
-        },
-        {
-          "source_id": "clh_salud_convenios",
-          "url": "https://www.losheroes.cl/trabajadores/salud/otros-convenios",
-          "category_hint": "Salud Convenios"
-        }
-      ]
-    },
+    "segment": "Cajas de compensación",
+    "issuer_id": "caja_los_andes",
+    "issuer_name": "Caja Los Andes",
+    "parser_strategy": "cajalosandes_v1",
+    "sources": [
+      {
+        "source_id": "cla_masbeneficios_home",
+        "url": "https://masbeneficios.cajalosandes.cl/",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "cla_salud",
+        "url": "https://masbeneficios.cajalosandes.cl/salud",
+        "category_hint": "Salud"
+      },
+      {
+        "source_id": "cla_bebe",
+        "url": "https://masbeneficios.cajalosandes.cl/bebe",
+        "category_hint": "Bebé/Familia"
+      },
+      {
+        "source_id": "cla_educacion",
+        "url": "https://masbeneficios.cajalosandes.cl/educacion",
+        "category_hint": "Educación"
+      },
+      {
+        "source_id": "cla_turismo_libre",
+        "url": "https://masbeneficios.cajalosandes.cl/turismo-y-tiempo-libre",
+        "category_hint": "Turismo/Tiempo Libre"
+      },
+      {
+        "source_id": "cla_hogar",
+        "url": "https://masbeneficios.cajalosandes.cl/hogar-y-servicios",
+        "category_hint": "Hogar/Servicios"
+      },
+      {
+        "source_id": "cla_deporte",
+        "url": "https://masbeneficios.cajalosandes.cl/deporte-y-vida-sana",
+        "category_hint": "Deporte/Vida Sana"
+      },
+      {
+        "source_id": "cla_pensionados",
+        "url": "https://masbeneficios.cajalosandes.cl/grandes-beneficios-para-pensionados",
+        "category_hint": "Pensionados"
+      },
+      {
+        "source_id": "cla_sostenibles",
+        "url": "https://masbeneficios.cajalosandes.cl/beneficios-sostenibles",
+        "category_hint": "Sostenibles"
+      },
+      {
+        "source_id": "cla_turismo_destinos",
+        "url": "https://www.turismocajalosandes.cl/destinos",
+        "category_hint": "Turismo Destinos"
+      },
+      {
+        "source_id": "cla_vest_moda",
+        "url": "https://masbeneficios.cajalosandes.cl/landing_categoria.php?idcat=vm",
+        "category_hint": "Vestuario/Moda"
+      }
+    ]
+  },
   {
-      "segment": "Cajas de compensación",
-      "issuer_id": "caja_la_araucana",
-      "issuer_name": "Caja La Araucana",
-      "parser_strategy": "cajalaaraucana_v1",
-      "sources": [
-        {
-          "source_id": "cla_beneficios_home",
-          "url": "https://beneficios.laaraucana.cl/",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "cla_salud",
-          "url": "https://beneficios.laaraucana.cl/salud",
-          "category_hint": "Salud"
-        },
-        {
-          "source_id": "cla_recreacion",
-          "url": "https://beneficios.laaraucana.cl/recreacion_y_bienestar",
-          "category_hint": "Recreación/Bienestar"
-        },
-        {
-          "source_id": "cla_turismo",
-          "url": "https://beneficios.laaraucana.cl/turismo_y_viajes",
-          "category_hint": "Turismo/Viajes"
-        },
-        {
-          "source_id": "cla_familia",
-          "url": "https://beneficios.laaraucana.cl/descuentos_para_la_familia",
-          "category_hint": "Familia"
-        },
-        {
-          "source_id": "cla_salud_temporal",
-          "url": "https://beneficios.laaraucana.cl/temporales/tu-salud-mas-cerca",
-          "category_hint": "Salud Temporal"
-        }
-      ]
-    },
+    "segment": "Cajas de compensación",
+    "issuer_id": "caja_los_heroes",
+    "issuer_name": "Caja Los Héroes",
+    "parser_strategy": "cajalosheroes_v1",
+    "sources": [
+      {
+        "source_id": "clh_beneficios_home",
+        "url": "https://www.losheroes.cl/trabajadores/beneficios/",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "clh_beneficios_mes",
+        "url": "https://www.losheroes.cl/trabajadores/beneficios-del-mes",
+        "category_hint": "Beneficios del Mes"
+      },
+      {
+        "source_id": "clh_salud_convenios",
+        "url": "https://www.losheroes.cl/trabajadores/salud/otros-convenios",
+        "category_hint": "Salud Convenios"
+      }
+    ]
+  },
   {
-      "segment": "Cajas de compensación",
-      "issuer_id": "caja_18_sept",
-      "issuer_name": "Caja 18 de Septiembre",
-      "parser_strategy": "caja18sept_v1",
-      "sources": [
-        {
-          "source_id": "c18_beneficios_home",
-          "url": "https://www.caja18.cl/beneficios/",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "c18_pensionados_beneficios",
-          "url": "https://www.caja18.cl/pensionados/beneficios/",
-          "category_hint": "Pensionados General"
-        },
-        {
-          "source_id": "c18_trabajadores_beneficios",
-          "url": "https://beneficios.caja18.cl/trabajadores/",
-          "category_hint": "Trabajadores General"
-        },
-        {
-          "source_id": "c18_pensionados_recreacion",
-          "url": "https://www.caja18.cl/pensionados/recreacion/",
-          "category_hint": "Pensionados Recreación"
-        },
-        {
-          "source_id": "c18_pensionados_salud",
-          "url": "https://www.caja18.cl/pensionados/salud/",
-          "category_hint": "Pensionados Salud"
-        },
-        {
-          "source_id": "c18_trabajadores_salud",
-          "url": "https://www.caja18.cl/trabajadores/salud/reembolso-red-de-prestadores/",
-          "category_hint": "Trabajadores Salud"
-        }
-      ]
-    },
+    "segment": "Cajas de compensación",
+    "issuer_id": "caja_la_araucana",
+    "issuer_name": "Caja La Araucana",
+    "parser_strategy": "cajalaaraucana_v1",
+    "sources": [
+      {
+        "source_id": "cla_beneficios_home",
+        "url": "https://beneficios.laaraucana.cl/",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "cla_salud",
+        "url": "https://beneficios.laaraucana.cl/salud",
+        "category_hint": "Salud"
+      },
+      {
+        "source_id": "cla_recreacion",
+        "url": "https://beneficios.laaraucana.cl/recreacion_y_bienestar",
+        "category_hint": "Recreación/Bienestar"
+      },
+      {
+        "source_id": "cla_turismo",
+        "url": "https://beneficios.laaraucana.cl/turismo_y_viajes",
+        "category_hint": "Turismo/Viajes"
+      },
+      {
+        "source_id": "cla_familia",
+        "url": "https://beneficios.laaraucana.cl/descuentos_para_la_familia",
+        "category_hint": "Familia"
+      },
+      {
+        "source_id": "cla_salud_temporal",
+        "url": "https://beneficios.laaraucana.cl/temporales/tu-salud-mas-cerca",
+        "category_hint": "Salud Temporal"
+      }
+    ]
+  },
   {
-      "segment": "Retail & Comercio",
-      "issuer_id": "cmr_falabella_retail",
-      "issuer_name": "CMR Falabella (retail + tarjeta)",
-      "parser_strategy": "cmr_v1",
-      "sources": [
-        {
-          "source_id": "cmr_descuentos_home",
-          "url": "https://www.bancofalabella.cl/descuentos",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "cmr_antojos",
-          "url": "https://www.bancofalabella.cl/descuentos/antojos",
-          "category_hint": "Restaurantes"
-        },
-        {
-          "source_id": "cmr_club_restaurantes",
-          "url": "https://www.bancofalabella.cl/descuentos/detalle/club-de-restaurantes",
-          "category_hint": "Restaurantes"
-        },
-        {
-          "source_id": "cmr_todos",
-          "url": "https://www.bancofalabella.cl/descuentos/todos",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "cmr_mccombo",
-          "url": "https://www.bancofalabella.cl/descuentos/detalle/mccombodelmes",
-          "category_hint": "Restaurantes"
-        }
-      ]
-    },
+    "segment": "Cajas de compensación",
+    "issuer_id": "caja_18_sept",
+    "issuer_name": "Caja 18 de Septiembre",
+    "parser_strategy": "caja18sept_v1",
+    "sources": [
+      {
+        "source_id": "c18_beneficios_home",
+        "url": "https://www.caja18.cl/beneficios/",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "c18_pensionados_beneficios",
+        "url": "https://www.caja18.cl/pensionados/beneficios/",
+        "category_hint": "Pensionados General"
+      },
+      {
+        "source_id": "c18_trabajadores_beneficios",
+        "url": "https://beneficios.caja18.cl/trabajadores/",
+        "category_hint": "Trabajadores General"
+      },
+      {
+        "source_id": "c18_pensionados_recreacion",
+        "url": "https://www.caja18.cl/pensionados/recreacion/",
+        "category_hint": "Pensionados Recreación"
+      },
+      {
+        "source_id": "c18_pensionados_salud",
+        "url": "https://www.caja18.cl/pensionados/salud/",
+        "category_hint": "Pensionados Salud"
+      },
+      {
+        "source_id": "c18_trabajadores_salud",
+        "url": "https://www.caja18.cl/trabajadores/salud/reembolso-red-de-prestadores/",
+        "category_hint": "Trabajadores Salud"
+      }
+    ]
+  },
   {
-      "segment": "Retail & Comercio",
-      "issuer_id": "jumbo_mas",
-      "issuer_name": "Club Jumbo Más / Jumbo (Cencosud)",
-      "parser_strategy": "jumbo_v1",
-      "sources": [
-        {
-          "source_id": "jumbo_beneficios_club",
-          "url": "https://www.jumbo.cl/beneficios-club",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "jumbo_home",
-          "url": "https://www.jumbo.cl/",
-          "category_hint": "Home"
-        },
-        {
-          "source_id": "jumbo_prime",
-          "url": "https://www.jumbo.cl/ofertas-prime?nombre_promo=boton-jumboprime-21012025",
-          "category_hint": "Prime"
-        },
-        {
-          "source_id": "jumbo_ofertas",
-          "url": "https://www.jumbo.cl/jumbo-ofertas?nombre_promo=boton-jumboofertas-13112023",
-          "category_hint": "Ofertas"
-        },
-        {
-          "source_id": "jumbo_tarjeta_cencosud",
-          "url": "https://www.jumbo.cl/ofertas-tarjeta-cencosud?nombre_promo=boton-ofertas-tarjeta-08082023",
-          "category_hint": "Tarjeta Cencosud"
-        },
-        {
-          "source_id": "jumbo_puntos",
-          "url": "https://www.jumbo.cl/oferta/puntos?nombre_promo=boton-ofertas-puntos-cencosud",
-          "category_hint": "Puntos Cencosud"
-        },
-        {
-          "source_id": "jumbo_cencopay",
-          "url": "https://www.jumbo.cl/cencopay?nombre_promo=boton-menu-cencopay-29062023",
-          "category_hint": "Cencopay"
-        }
-      ]
-    },
- {
-      "segment": "Retail & Comercio",
-      "issuer_id": "unimarc",
-      "issuer_name": "Club Unimarc / Unimarc",
-      "parser_strategy": "unimarc_v1",
-      "sources": [
-        {
-          "source_id": "uni_club_home",
-          "url": "https://www.unimarc.cl/club-unimarc",
-          "category_hint": "General Club"
-        },
-        {
-          "source_id": "uni_beneficios_home",
-          "url": "https://www.unimarc.cl/club-unimarc/beneficios",
-          "category_hint": "General Beneficios"
-        },
-        {
-          "source_id": "uni_beneficios_salud",
-          "url": "https://www.unimarc.cl/club-unimarc/beneficios?category=Salud+y+cuidado+personal",
-          "category_hint": "Salud"
-        },
-        {
-          "source_id": "uni_beneficios_turismo",
-          "url": "https://www.unimarc.cl/club-unimarc/beneficios?category=Turismo+y+Viajes",
-          "category_hint": "Turismo/Viajes"
-        },
-        {
-          "source_id": "uni_beneficios_entretencion",
-          "url": "https://www.unimarc.cl/club-unimarc/beneficios?category=Entretenci%C3%B3n",
-          "category_hint": "Entretención"
-        },
-        {
-          "source_id": "uni_beneficios_destacados",
-          "url": "https://www.unimarc.cl/club-unimarc/beneficios?category=Destacados",
-          "category_hint": "Destacados"
-        },
-        {
-          "source_id": "uni_beneficios_otros",
-          "url": "https://www.unimarc.cl/club-unimarc/beneficios?category=Otros",
-          "category_hint": "Otros"
-        },
-        {
-          "source_id": "uni_beneficios_todos",
-          "url": "https://www.unimarc.cl/club-unimarc/beneficios?category=Todos",
-          "category_hint": "Todos"
-        }
-      ]
-    },
+    "segment": "Retail & Comercio",
+    "issuer_id": "cmr_falabella_retail",
+    "issuer_name": "CMR Falabella (retail + tarjeta)",
+    "parser_strategy": "cmr_v1",
+    "sources": [
+      {
+        "source_id": "cmr_descuentos_home",
+        "url": "https://www.bancofalabella.cl/descuentos",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "cmr_antojos",
+        "url": "https://www.bancofalabella.cl/descuentos/antojos",
+        "category_hint": "Restaurantes"
+      },
+      {
+        "source_id": "cmr_club_restaurantes",
+        "url": "https://www.bancofalabella.cl/descuentos/detalle/club-de-restaurantes",
+        "category_hint": "Restaurantes"
+      },
+      {
+        "source_id": "cmr_todos",
+        "url": "https://www.bancofalabella.cl/descuentos/todos",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "cmr_mccombo",
+        "url": "https://www.bancofalabella.cl/descuentos/detalle/mccombodelmes",
+        "category_hint": "Restaurantes"
+      }
+    ]
+  },
   {
-      "segment": "Retail & Comercio",
-      "issuer_id": "lider",
-      "issuer_name": "Líder / Tarjeta Líder (BCI)",
-      "parser_strategy": "lider_v1",
-      "sources": [
-        {
-          "source_id": "lider_beneficios_home",
-          "url": "https://www.lider.cl/beneficios",
-          "category_hint": "General Lider"
-        },
-        {
-          "source_id": "liderbci_home",
-          "url": "https://www.liderbci.cl/",
-          "category_hint": "Home Lider BCI"
-        },
-        {
-          "source_id": "liderbci_descuentos",
-          "url": "https://www.liderbci.cl/descuentos",
-          "category_hint": "Descuentos Lider BCI"
-        },
-        {
-          "source_id": "liderbci_tarjeta_digital",
-          "url": "https://tarjetadigital.liderbciserviciosfinancieros.cl/ingreso-de-datos?preevaluado=false",
-          "category_hint": "Tarjeta Digital Lider BCI"
-        }
-      ]
-    },
- {
-      "segment": "Retail & Comercio",
-      "issuer_id": "ripley_retail",
-      "issuer_name": "Ripley (retail + tarjeta)",
-      "parser_strategy": "ripley_v1",
-      "sources": [
-        {
-          "source_id": "rip_beneficios_home",
-          "url": "https://www.bancoripley.cl/beneficios-y-promociones",
-          "category_hint": "General"
-        },
-        {
-          "source_id": "rip_restaurantes",
-          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-restaurantes",
-          "category_hint": "Restaurantes"
-        },
-        {
-          "source_id": "rip_restofans",
-          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-restofans",
-          "category_hint": "Restaurantes Fans"
-        },
-        {
-          "source_id": "rip_delivery",
-          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-comidadelivery",
-          "category_hint": "Delivery"
-        },
-        {
-          "source_id": "rip_bienestar",
-          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-bienestar-belleza",
-          "category_hint": "Bienestar"
-        },
-        {
-          "source_id": "rip_viajes",
-          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-viajes-transportes",
-          "category_hint": "Viajes"
-        },
-        {
-          "source_id": "rip_mastercard_black",
-          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-mastercardblack",
-          "category_hint": "Mastercard Black"
-        },
-        {
-          "source_id": "rip_entretencion",
-          "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-entretencionyotros",
-          "category_hint": "Entretención"
-        }
-      ]
-    },
+    "segment": "Retail & Comercio",
+    "issuer_id": "jumbo_mas",
+    "issuer_name": "Club Jumbo Más / Jumbo (Cencosud)",
+    "parser_strategy": "jumbo_v1",
+    "sources": [
+      {
+        "source_id": "jumbo_beneficios_club",
+        "url": "https://www.jumbo.cl/beneficios-club",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "jumbo_home",
+        "url": "https://www.jumbo.cl/",
+        "category_hint": "Home"
+      },
+      {
+        "source_id": "jumbo_prime",
+        "url": "https://www.jumbo.cl/ofertas-prime?nombre_promo=boton-jumboprime-21012025",
+        "category_hint": "Prime"
+      },
+      {
+        "source_id": "jumbo_ofertas",
+        "url": "https://www.jumbo.cl/jumbo-ofertas?nombre_promo=boton-jumboofertas-13112023",
+        "category_hint": "Ofertas"
+      },
+      {
+        "source_id": "jumbo_tarjeta_cencosud",
+        "url": "https://www.jumbo.cl/ofertas-tarjeta-cencosud?nombre_promo=boton-ofertas-tarjeta-08082023",
+        "category_hint": "Tarjeta Cencosud"
+      },
+      {
+        "source_id": "jumbo_puntos",
+        "url": "https://www.jumbo.cl/oferta/puntos?nombre_promo=boton-ofertas-puntos-cencosud",
+        "category_hint": "Puntos Cencosud"
+      },
+      {
+        "source_id": "jumbo_cencopay",
+        "url": "https://www.jumbo.cl/cencopay?nombre_promo=boton-menu-cencopay-29062023",
+        "category_hint": "Cencopay"
+      }
+    ]
+  },
   {
-      "segment": "Retail & Comercio",
-      "issuer_id": "paris",
-      "issuer_name": "Paris (retail + tarjeta + cencosud)",
-      "parser_strategy": "paris_v1",
-      "sources": [
-        {
-          "source_id": "paris_beneficios_cencosud",
-          "url": "https://www.paris.cl/beneficios-cencosud",
-          "category_hint": "General Cencosud"
-        },
-        {
-          "source_id": "paris_home",
-          "url": "https://www.paris.cl/",
-          "category_hint": "Home"
-        },
-        {
-          "source_id": "paris_outlet",
-          "url": "https://www.paris.cl/outlet/",
-          "category_hint": "Outlet"
-        },
-        {
-          "source_id": "paris_tarjeta_cencosud",
-          "url": "https://www.tarjetacencosud.cl/publico/beneficios/landing/inicio",
-          "category_hint": "Tarjeta Cencosud Beneficios"
-        },
-        {
-          "source_id": "paris_novios",
-          "url": "https://www.noviosparis.cl/home",
-          "category_hint": "Novios Paris"
-        },
-        {
-          "source_id": "paris_cencopay",
-          "url": "https://cencopay.cl/ofertas/",
-          "category_hint": "Cencopay Ofertas"
-        }
-      ]
-    },
+    "segment": "Retail & Comercio",
+    "issuer_id": "unimarc",
+    "issuer_name": "Club Unimarc / Unimarc",
+    "parser_strategy": "unimarc_v1",
+    "sources": [
+      {
+        "source_id": "uni_club_home",
+        "url": "https://www.unimarc.cl/club-unimarc",
+        "category_hint": "General Club"
+      },
+      {
+        "source_id": "uni_beneficios_home",
+        "url": "https://www.unimarc.cl/club-unimarc/beneficios",
+        "category_hint": "General Beneficios"
+      },
+      {
+        "source_id": "uni_beneficios_salud",
+        "url": "https://www.unimarc.cl/club-unimarc/beneficios?category=Salud+y+cuidado+personal",
+        "category_hint": "Salud"
+      },
+      {
+        "source_id": "uni_beneficios_turismo",
+        "url": "https://www.unimarc.cl/club-unimarc/beneficios?category=Turismo+y+Viajes",
+        "category_hint": "Turismo/Viajes"
+      },
+      {
+        "source_id": "uni_beneficios_entretencion",
+        "url": "https://www.unimarc.cl/club-unimarc/beneficios?category=Entretenci%C3%B3n",
+        "category_hint": "Entretención"
+      },
+      {
+        "source_id": "uni_beneficios_destacados",
+        "url": "https://www.unimarc.cl/club-unimarc/beneficios?category=Destacados",
+        "category_hint": "Destacados"
+      },
+      {
+        "source_id": "uni_beneficios_otros",
+        "url": "https://www.unimarc.cl/club-unimarc/beneficios?category=Otros",
+        "category_hint": "Otros"
+      },
+      {
+        "source_id": "uni_beneficios_todos",
+        "url": "https://www.unimarc.cl/club-unimarc/beneficios?category=Todos",
+        "category_hint": "Todos"
+      }
+    ]
+  },
   {
-      "segment": "Retail & Comercio",
-      "issuer_id": "hites",
-      "issuer_name": "Hites",
-      "parser_strategy": "hites_v1",
-      "sources": [
-        {
-          "source_id": "hites_beneficios_home",
-          "url": "https://www.hites.com/beneficios",
-          "category_hint": "General Beneficios"
-        },
-        {
-          "source_id": "hites_donde_usar_tarjeta",
-          "url": "https://www.tarjetahites.com/donde-usarla",
-          "category_hint": "Dónde Usar Tarjeta"
-        },
-        {
-          "source_id": "hites_nuevos_beneficios",
-          "url": "https://tarjetahites.com/dile-hola-a-tus-nuevos-beneficios",
-          "category_hint": "Nuevos Beneficios"
-        },
-        {
-          "source_id": "hites_home",
-          "url": "https://www.hites.com/",
-          "category_hint": "Home"
-        },
-        {
-          "source_id": "hites_especial_tarjeta",
-          "url": "https://www.hites.com/especiales/tarjeta-hites/",
-          "category_hint": "Especial Tarjeta Hites"
-        }
-      ]
-    },
+    "segment": "Retail & Comercio",
+    "issuer_id": "lider",
+    "issuer_name": "Líder / Tarjeta Líder (BCI)",
+    "parser_strategy": "lider_v1",
+    "sources": [
+      {
+        "source_id": "lider_beneficios_home",
+        "url": "https://www.lider.cl/beneficios",
+        "category_hint": "General Lider"
+      },
+      {
+        "source_id": "liderbci_home",
+        "url": "https://www.liderbci.cl/",
+        "category_hint": "Home Lider BCI"
+      },
+      {
+        "source_id": "liderbci_descuentos",
+        "url": "https://www.liderbci.cl/descuentos",
+        "category_hint": "Descuentos Lider BCI"
+      },
+      {
+        "source_id": "liderbci_tarjeta_digital",
+        "url": "https://tarjetadigital.liderbciserviciosfinancieros.cl/ingreso-de-datos?preevaluado=false",
+        "category_hint": "Tarjeta Digital Lider BCI"
+      }
+    ]
+  },
   {
-      "segment": "Retail & Comercio",
-      "issuer_id": "abcdin",
-      "issuer_name": "ABCDIN",
-      "parser_strategy": "abcdin_v1",
-      "sources": [
-        {
-          "source_id": "abcdin_beneficios_home",
-          "url": "https://www.abcdin.cl/beneficios",
-          "category_hint": "General Beneficios"
-        },
-        {
-          "source_id": "abcdin_tarjeta_descuentos",
-          "url": "https://www.tarjetaabc.cl/s/descuentos",
-          "category_hint": "Tarjeta ABC Descuentos"
-        },
-        {
-          "source_id": "abcdin_home",
-          "url": "https://www.abc.cl/",
-          "category_hint": "Home ABC"
-        },
-        {
-          "source_id": "abcdin_tarjeta_home",
-          "url": "https://www.tarjetaabc.cl/s/",
-          "category_hint": "Home Tarjeta ABC"
-        }
-      ]
-    },
- {
-      "segment": "Retail & Comercio",
-      "issuer_id": "la_polar",
-      "issuer_name": "La Polar",
-      "parser_strategy": "lapolar_v1",
-      "sources": [
-        {
-          "source_id": "polar_beneficios_home",
-          "url": "https://www.lapolar.cl/beneficios",
-          "category_hint": "General Beneficios"
-        },
-        {
-          "source_id": "polar_tarjeta_abc_info",
-          "url": "https://www.tarjetaabc.cl/s/tarjeta-la-polar",
-          "category_hint": "Info Tarjeta ABC"
-        },
-        {
-          "source_id": "polar_tarjeta_abc_visa_info",
-          "url": "https://www.tarjetaabc.cl/s/tarjeta-la-polar-visa",
-          "category_hint": "Info Tarjeta ABC Visa"
-        }
-      ]
-    },
+    "segment": "Retail & Comercio",
+    "issuer_id": "ripley_retail",
+    "issuer_name": "Ripley (retail + tarjeta)",
+    "parser_strategy": "ripley_v1",
+    "sources": [
+      {
+        "source_id": "rip_beneficios_home",
+        "url": "https://www.bancoripley.cl/beneficios-y-promociones",
+        "category_hint": "General"
+      },
+      {
+        "source_id": "rip_restaurantes",
+        "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-restaurantes",
+        "category_hint": "Restaurantes"
+      },
+      {
+        "source_id": "rip_restofans",
+        "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-restofans",
+        "category_hint": "Restaurantes Fans"
+      },
+      {
+        "source_id": "rip_delivery",
+        "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-comidadelivery",
+        "category_hint": "Delivery"
+      },
+      {
+        "source_id": "rip_bienestar",
+        "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-bienestar-belleza",
+        "category_hint": "Bienestar"
+      },
+      {
+        "source_id": "rip_viajes",
+        "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-viajes-transportes",
+        "category_hint": "Viajes"
+      },
+      {
+        "source_id": "rip_mastercard_black",
+        "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-mastercardblack",
+        "category_hint": "Mastercard Black"
+      },
+      {
+        "source_id": "rip_entretencion",
+        "url": "https://www.bancoripley.cl/beneficios-y-promociones#nav-entretencionyotros",
+        "category_hint": "Entretención"
+      }
+    ]
+  },
   {
-      "segment": "Retail & Comercio",
-      "issuer_id": "sodimac",
-      "issuer_name": "Sodimac / Homecenter",
-      "parser_strategy": "sodimac_v1",
-      "sources": [
-        {
-          "source_id": "sod_beneficios_general",
-          "url": "https://www.sodimac.cl/sodimac-cl/beneficios",
-          "category_hint": "General Beneficios"
-        },
-        {
-          "source_id": "sod_comprar_beneficios",
-          "url": "https://www.sodimac.cl/sodimac-cl/content/comprar-beneficios",
-          "category_hint": "Comprar Beneficios"
-        }
-      ]
-    },
+    "segment": "Retail & Comercio",
+    "issuer_id": "paris",
+    "issuer_name": "Paris (retail + tarjeta + cencosud)",
+    "parser_strategy": "paris_v1",
+    "sources": [
+      {
+        "source_id": "paris_beneficios_cencosud",
+        "url": "https://www.paris.cl/beneficios-cencosud",
+        "category_hint": "General Cencosud"
+      },
+      {
+        "source_id": "paris_home",
+        "url": "https://www.paris.cl/",
+        "category_hint": "Home"
+      },
+      {
+        "source_id": "paris_outlet",
+        "url": "https://www.paris.cl/outlet/",
+        "category_hint": "Outlet"
+      },
+      {
+        "source_id": "paris_tarjeta_cencosud",
+        "url": "https://www.tarjetacencosud.cl/publico/beneficios/landing/inicio",
+        "category_hint": "Tarjeta Cencosud Beneficios"
+      },
+      {
+        "source_id": "paris_novios",
+        "url": "https://www.noviosparis.cl/home",
+        "category_hint": "Novios Paris"
+      },
+      {
+        "source_id": "paris_cencopay",
+        "url": "https://cencopay.cl/ofertas/",
+        "category_hint": "Cencopay Ofertas"
+      }
+    ]
+  },
   {
-      "segment": "Retail & Comercio",
-      "issuer_id": "easy",
-      "issuer_name": "Easy Club (Cencosud / Scotiabank)",
-      "parser_strategy": "easy_v1",
-      "sources": [
-        {
-          "source_id": "easy_club_home",
-          "url": "https://www.easy.cl/easy-club",
-          "category_hint": "General Club"
-        },
-        {
-          "source_id": "easy_home",
-          "url": "https://www.easy.cl/",
-          "category_hint": "Home"
-        },
-        {
-          "source_id": "easy_ofertas_online",
-          "url": "https://www.easy.cl/eventos/ofertas-exclusivas-online",
-          "category_hint": "Ofertas Online"
-        }
-      ]
-    },
+    "segment": "Retail & Comercio",
+    "issuer_id": "hites",
+    "issuer_name": "Hites",
+    "parser_strategy": "hites_v1",
+    "sources": [
+      {
+        "source_id": "hites_beneficios_home",
+        "url": "https://www.hites.com/beneficios",
+        "category_hint": "General Beneficios"
+      },
+      {
+        "source_id": "hites_donde_usar_tarjeta",
+        "url": "https://www.tarjetahites.com/donde-usarla",
+        "category_hint": "Dónde Usar Tarjeta"
+      },
+      {
+        "source_id": "hites_nuevos_beneficios",
+        "url": "https://tarjetahites.com/dile-hola-a-tus-nuevos-beneficios",
+        "category_hint": "Nuevos Beneficios"
+      },
+      {
+        "source_id": "hites_home",
+        "url": "https://www.hites.com/",
+        "category_hint": "Home"
+      },
+      {
+        "source_id": "hites_especial_tarjeta",
+        "url": "https://www.hites.com/especiales/tarjeta-hites/",
+        "category_hint": "Especial Tarjeta Hites"
+      }
+    ]
+  },
   {
-      "segment": "Retail & Comercio",
-      "issuer_id": "copec",
-      "issuer_name": "Copec / Copec Voltex",
-      "parser_strategy": "copec_v1",
-      "sources": [
-        {
-          "source_id": "copec_beneficios_home",
-          "url": "https://www.copec.cl/beneficios",
-          "category_hint": "Combustible"
-        },
-        {
-          "source_id": "copec_voltex_puntos_full",
-          "url": "https://copecvoltex.cl/pages/puntos-full",
-          "category_hint": "Voltex Puntos Full"
-        },
-        {
-          "source_id": "copec_full_catalogo",
-          "url": "https://www.fullcopec.cl/catalogo",
-          "category_hint": "Full Copec Catálogo"
-        },
-        {
-          "source_id": "copec_voltex_seguros_convenios",
-          "url": "https://copecvoltex.cl/pages/seguros-y-convenios-1",
-          "category_hint": "Voltex Seguros/Convenios"
-        }
-      ]
-    },
- {
-      "segment": "Retail & Comercio",
-      "issuer_id": "shell",
-      "issuer_name": "Shell",
-      "parser_strategy": "shell_v1",
-      "sources": [
-        {
-          "source_id": "shell_beneficios_home",
-          "url": "https://www.shell.cl/beneficios",
-          "category_hint": "Combustible"
-        },
-        {
-          "source_id": "shell_promo_ilusion",
-          "url": "https://www.shell.cl/estaciones-de-servicio/promociones-y-campanas/promo-ilusion.html",
-          "category_hint": "Promociones"
-        },
-        {
-          "source_id": "shell_card_transporte",
-          "url": "https://www.shell.cl/estaciones-de-servicio/tarjetas-shell-card/shell-card-transporte.html",
-          "category_hint": "Shell Card Transporte"
-        },
-        {
-          "source_id": "shell_card_info",
-          "url": "https://www.shell.cl/estaciones-de-servicio/tarjetas-shell-card/sobre-las-tarjetas-shell-card.html",
-          "category_hint": "Shell Card Info"
-        }
-      ]
-    },
+    "segment": "Retail & Comercio",
+    "issuer_id": "abcdin",
+    "issuer_name": "ABCDIN",
+    "parser_strategy": "abcdin_v1",
+    "sources": [
+      {
+        "source_id": "abcdin_beneficios_home",
+        "url": "https://www.abcdin.cl/beneficios",
+        "category_hint": "General Beneficios"
+      },
+      {
+        "source_id": "abcdin_tarjeta_descuentos",
+        "url": "https://www.tarjetaabc.cl/s/descuentos",
+        "category_hint": "Tarjeta ABC Descuentos"
+      },
+      {
+        "source_id": "abcdin_home",
+        "url": "https://www.abc.cl/",
+        "category_hint": "Home ABC"
+      },
+      {
+        "source_id": "abcdin_tarjeta_home",
+        "url": "https://www.tarjetaabc.cl/s/",
+        "category_hint": "Home Tarjeta ABC"
+      }
+    ]
+  },
   {
-      "segment": "Retail & Comercio",
-      "issuer_id": "ok_market",
-      "issuer_name": "OK Market / Unired",
-      "parser_strategy": "okmarket_v1",
-      "sources": [
-        {
-          "source_id": "okmarket_home",
-          "url": "https://okmarket.cl/",
-          "category_hint": "Home"
-        }
-      ]
-    },
+    "segment": "Retail & Comercio",
+    "issuer_id": "la_polar",
+    "issuer_name": "La Polar",
+    "parser_strategy": "lapolar_v1",
+    "sources": [
+      {
+        "source_id": "polar_beneficios_home",
+        "url": "https://www.lapolar.cl/beneficios",
+        "category_hint": "General Beneficios"
+      },
+      {
+        "source_id": "polar_tarjeta_abc_info",
+        "url": "https://www.tarjetaabc.cl/s/tarjeta-la-polar",
+        "category_hint": "Info Tarjeta ABC"
+      },
+      {
+        "source_id": "polar_tarjeta_abc_visa_info",
+        "url": "https://www.tarjetaabc.cl/s/tarjeta-la-polar-visa",
+        "category_hint": "Info Tarjeta ABC Visa"
+      }
+    ]
+  },
   {
-      "segment": "Isapres & Salud",
-      "issuer_id": "cruz_blanca",
-      "issuer_name": "Isapre Cruz Blanca",
-      "parser_strategy": "isapre_generico_v1",
-      "sources": [
-        {
-          "source_id": "cb_beneficios_home",
-          "url": "https://www.cruzblanca.cl/beneficios",
-          "category_hint": "Salud General"
-        },
-        {
-          "source_id": "cb_beneficios_plan",
-          "url": "https://www.cruzblanca.cl/beneficios-de-tu-plan",
-          "category_hint": "Beneficios Plan"
-        },
-        {
-          "source_id": "cb_beneficios_salcobrand",
-          "url": "https://www.cruzblanca.cl/beneficios-en-farmacias-salcobrand",
-          "category_hint": "Farmacias Salcobrand"
-        },
-        {
-          "source_id": "cb_beneficios_integramedica",
-          "url": "https://www.cruzblanca.cl/beneficios-integramedica",
-          "category_hint": "Integramedica"
-        },
-        {
-          "source_id": "cb_home",
-          "url": "https://www.cruzblanca.cl/",
-          "category_hint": "Home"
-        },
-        {
-          "source_id": "cb_bono_cero",
-          "url": "https://www.cruzblanca.cl/bono-costo-cero",
-          "category_hint": "Bono Costo Cero"
-        },
-        {
-          "source_id": "cb_productos_adicionales",
-          "url": "https://www.cruzblanca.cl/productos-adicionales",
-          "category_hint": "Productos Adicionales"
-        }
-      ]
-    },
+    "segment": "Retail & Comercio",
+    "issuer_id": "sodimac",
+    "issuer_name": "Sodimac / Homecenter",
+    "parser_strategy": "sodimac_v1",
+    "sources": [
+      {
+        "source_id": "sod_beneficios_general",
+        "url": "https://www.sodimac.cl/sodimac-cl/beneficios",
+        "category_hint": "General Beneficios"
+      },
+      {
+        "source_id": "sod_comprar_beneficios",
+        "url": "https://www.sodimac.cl/sodimac-cl/content/comprar-beneficios",
+        "category_hint": "Comprar Beneficios"
+      }
+    ]
+  },
   {
-      "segment": "Isapres & Salud",
-      "issuer_id": "banmedica",
-      "issuer_name": "Isapre Banmédica",
-      "parser_strategy": "isapre_generico_v1",
-      "sources": [
-        {
-          "source_id": "banm_beneficios_home",
-          "url": "https://www.banmedica.cl/beneficios/",
-          "category_hint": "Salud General"
-        },
-        {
-          "source_id": "banm_tuplan_home",
-          "url": "https://www.tuplanbanmedica.cl/",
-          "category_hint": "Info Plan"
-        },
-        {
-          "source_id": "banm_masqueunplan",
-          "url": "https://www.tuplanbanmedica.cl/masqueunplan/",
-          "category_hint": "Campaña MásQueUnPlan"
-        }
-      ]
-    },
+    "segment": "Retail & Comercio",
+    "issuer_id": "easy",
+    "issuer_name": "Easy Club (Cencosud / Scotiabank)",
+    "parser_strategy": "easy_v1",
+    "sources": [
+      {
+        "source_id": "easy_club_home",
+        "url": "https://www.easy.cl/easy-club",
+        "category_hint": "General Club"
+      },
+      {
+        "source_id": "easy_home",
+        "url": "https://www.easy.cl/",
+        "category_hint": "Home"
+      },
+      {
+        "source_id": "easy_ofertas_online",
+        "url": "https://www.easy.cl/eventos/ofertas-exclusivas-online",
+        "category_hint": "Ofertas Online"
+      }
+    ]
+  },
   {
-      "segment": "Isapres & Salud",
-      "issuer_id": "colmena",
-      "issuer_name": "Isapre Colmena",
-      "parser_strategy": "isapre_generico_v1",
-      "sources": [
-        {
-          "source_id": "colm_beneficios_descuentos",
-          "url": "https://www.colmena.cl/beneficios-y-descuentos/",
-          "category_hint": "Salud General Descuentos"
-        },
-        {
-          "source_id": "colm_beneficios_plan",
-          "url": "https://www.colmena.cl/beneficios-incluidos-en-tu-plan-de-salud/",
-          "category_hint": "Beneficios Plan"
-        },
-        {
-          "source_id": "colm_club_beneficios",
-          "url": "https://clubdebeneficios.colmena.cl/",
-          "category_hint": "Club Beneficios"
-        },
-        {
-          "source_id": "colm_bono_cero",
-          "url": "https://www.colmena.cl/convenio-bono-costo-cero/",
-          "category_hint": "Bono Costo Cero"
-        },
-        {
-          "source_id": "colm_productos_adicionales",
-          "url": "https://www.colmena.cl/productos-adicionales/",
-          "category_hint": "Productos Adicionales"
-        }
-      ]
-    },
- {
-      "segment": "Isapres & Salud",
-      "issuer_id": "vida_tres",
-      "issuer_name": "Isapre Vida Tres",
-      "parser_strategy": "isapre_generico_v1",
-      "sources": [
-        {
-          "source_id": "vt_beneficios_home",
-          "url": "https://www.vidatres.cl/beneficios/",
-          "category_hint": "Salud General"
-        },
-        {
-          "source_id": "vt_alianza_salcobrand",
-          "url": "https://www.vidatres.cl/disfruta-los-beneficios-nuestra-nueva-alianza-farmacias-salcobrand/",
-          "category_hint": "Farmacias Salcobrand"
-        },
-        {
-          "source_id": "vt_opticas_schilling",
-          "url": "https://www.vidatres.cl/beneficios/descuentos-en-opticas-schilling/",
-          "category_hint": "Ópticas Schilling"
-        },
-        {
-          "source_id": "vt_complementos",
-          "url": "https://www.vidatres.cl/complementos/",
-          "category_hint": "Complementos"
-        },
-        {
-          "source_id": "vt_beneficios_farmacias",
-          "url": "https://www.vidatres.cl/beneficios-en-farmacias/",
-          "category_hint": "Farmacias General"
-        },
-         {
-          "source_id": "vt_productos_adicionales_pdf",
-          "url": "https://www.vidatres.cl/wp-content/uploads/2021/10/Folleto-Digital-Productos-Adicionales-Vida-Tres.pdf",
-          "category_hint": "Productos Adicionales (PDF)"
-        }
-      ]
-    },
+    "segment": "Retail & Comercio",
+    "issuer_id": "copec",
+    "issuer_name": "Copec / Copec Voltex",
+    "parser_strategy": "copec_v1",
+    "sources": [
+      {
+        "source_id": "copec_beneficios_home",
+        "url": "https://www.copec.cl/beneficios",
+        "category_hint": "Combustible"
+      },
+      {
+        "source_id": "copec_voltex_puntos_full",
+        "url": "https://copecvoltex.cl/pages/puntos-full",
+        "category_hint": "Voltex Puntos Full"
+      },
+      {
+        "source_id": "copec_full_catalogo",
+        "url": "https://www.fullcopec.cl/catalogo",
+        "category_hint": "Full Copec Catálogo"
+      },
+      {
+        "source_id": "copec_voltex_seguros_convenios",
+        "url": "https://copecvoltex.cl/pages/seguros-y-convenios-1",
+        "category_hint": "Voltex Seguros/Convenios"
+      }
+    ]
+  },
   {
-      "segment": "Isapres & Salud",
-      "issuer_id": "nueva_mas_vida",
-      "issuer_name": "Isapre Nueva Más Vida",
-      "parser_strategy": "isapre_generico_v1",
-      "sources": [
-        {
-          "source_id": "nmv_beneficios_home",
-          "url": "https://www.nuevamasvida.cl/beneficios",
-          "category_hint": "Salud General"
-        },
-        {
-          "source_id": "nmv_beneficios_complementarios",
-          "url": "https://www.nuevamasvida.cl/beneficios-complementarios/",
-          "category_hint": "Beneficios Complementarios"
-        },
-        {
-          "source_id": "nmv_club_beneficios",
-          "url": "https://www.nuevamasvida.cl/club-de-beneficios/",
-          "category_hint": "Club Beneficios"
-        },
-        {
-          "source_id": "nmv_beneficios_adicionales_ayuda",
-          "url": "https://www.nuevamasvida.cl/centro-de-ayuda/beneficios-adicionales/",
-          "category_hint": "Beneficios Adicionales (Ayuda)"
-        },
-        {
-          "source_id": "nmv_buscador_costo_cero",
-          "url": "https://www.nuevamasvida.cl/buscador-costo-cero/",
-          "category_hint": "Bono Costo Cero"
-        },
-        {
-          "source_id": "nmv_seguro_cesantia",
-          "url": "https://www.nuevamasvida.cl/beneficios-complementarios/seguro-de-cesantia/",
-          "category_hint": "Seguro Cesantía"
-        }
-      ]
-    },
+    "segment": "Retail & Comercio",
+    "issuer_id": "shell",
+    "issuer_name": "Shell",
+    "parser_strategy": "shell_v1",
+    "sources": [
+      {
+        "source_id": "shell_beneficios_home",
+        "url": "https://www.shell.cl/beneficios",
+        "category_hint": "Combustible"
+      },
+      {
+        "source_id": "shell_promo_ilusion",
+        "url": "https://www.shell.cl/estaciones-de-servicio/promociones-y-campanas/promo-ilusion.html",
+        "category_hint": "Promociones"
+      },
+      {
+        "source_id": "shell_card_transporte",
+        "url": "https://www.shell.cl/estaciones-de-servicio/tarjetas-shell-card/shell-card-transporte.html",
+        "category_hint": "Shell Card Transporte"
+      },
+      {
+        "source_id": "shell_card_info",
+        "url": "https://www.shell.cl/estaciones-de-servicio/tarjetas-shell-card/sobre-las-tarjetas-shell-card.html",
+        "category_hint": "Shell Card Info"
+      }
+    ]
+  },
   {
-      "segment": "Isapres & Salud",
-      "issuer_id": "fonasa",
-      "issuer_name": "Fonasa",
-      "parser_strategy": "fonasa_v1",
-      "sources": [
-        {
-          "source_id": "fon_beneficios_home",
-          "url": "https://www.fonasa.cl/beneficios/",
-          "category_hint": "General Fonasa"
-        },
-        {
-          "source_id": "fon_redsalud",
-          "url": "https://www.redsalud.cl/informacion-para-el-paciente/fonasa-en-redsalud",
-          "category_hint": "Convenio RedSalud"
-        },
-        {
-          "source_id": "fon_andessalud",
-          "url": "https://www.andessalud.cl/beneficios-fonasa/",
-          "category_hint": "Convenio AndesSalud"
-        },
-        {
-          "source_id": "fon_integramedica",
-          "url": "https://www.integramedica.cl/planes-y-convenios/convenios/fonasa",
-          "category_hint": "Convenio Integramedica"
-        }
-      ]
-    },
+    "segment": "Retail & Comercio",
+    "issuer_id": "ok_market",
+    "issuer_name": "OK Market / Unired",
+    "parser_strategy": "okmarket_v1",
+    "sources": [
+      {
+        "source_id": "okmarket_home",
+        "url": "https://okmarket.cl/",
+        "category_hint": "Home"
+      }
+    ]
+  },
+  {
+    "segment": "Isapres & Salud",
+    "issuer_id": "cruz_blanca",
+    "issuer_name": "Isapre Cruz Blanca",
+    "parser_strategy": "isapre_generico_v1",
+    "sources": [
+      {
+        "source_id": "cb_beneficios_home",
+        "url": "https://www.cruzblanca.cl/beneficios",
+        "category_hint": "Salud General"
+      },
+      {
+        "source_id": "cb_beneficios_plan",
+        "url": "https://www.cruzblanca.cl/beneficios-de-tu-plan",
+        "category_hint": "Beneficios Plan"
+      },
+      {
+        "source_id": "cb_beneficios_salcobrand",
+        "url": "https://www.cruzblanca.cl/beneficios-en-farmacias-salcobrand",
+        "category_hint": "Farmacias Salcobrand"
+      },
+      {
+        "source_id": "cb_beneficios_integramedica",
+        "url": "https://www.cruzblanca.cl/beneficios-integramedica",
+        "category_hint": "Integramedica"
+      },
+      {
+        "source_id": "cb_home",
+        "url": "https://www.cruzblanca.cl/",
+        "category_hint": "Home"
+      },
+      {
+        "source_id": "cb_bono_cero",
+        "url": "https://www.cruzblanca.cl/bono-costo-cero",
+        "category_hint": "Bono Costo Cero"
+      },
+      {
+        "source_id": "cb_productos_adicionales",
+        "url": "https://www.cruzblanca.cl/productos-adicionales",
+        "category_hint": "Productos Adicionales"
+      }
+    ]
+  },
+  {
+    "segment": "Isapres & Salud",
+    "issuer_id": "banmedica",
+    "issuer_name": "Isapre Banmédica",
+    "parser_strategy": "isapre_generico_v1",
+    "sources": [
+      {
+        "source_id": "banm_beneficios_home",
+        "url": "https://www.banmedica.cl/beneficios/",
+        "category_hint": "Salud General"
+      },
+      {
+        "source_id": "banm_tuplan_home",
+        "url": "https://www.tuplanbanmedica.cl/",
+        "category_hint": "Info Plan"
+      },
+      {
+        "source_id": "banm_masqueunplan",
+        "url": "https://www.tuplanbanmedica.cl/masqueunplan/",
+        "category_hint": "Campaña MásQueUnPlan"
+      }
+    ]
+  },
+  {
+    "segment": "Isapres & Salud",
+    "issuer_id": "colmena",
+    "issuer_name": "Isapre Colmena",
+    "parser_strategy": "isapre_generico_v1",
+    "sources": [
+      {
+        "source_id": "colm_beneficios_descuentos",
+        "url": "https://www.colmena.cl/beneficios-y-descuentos/",
+        "category_hint": "Salud General Descuentos"
+      },
+      {
+        "source_id": "colm_beneficios_plan",
+        "url": "https://www.colmena.cl/beneficios-incluidos-en-tu-plan-de-salud/",
+        "category_hint": "Beneficios Plan"
+      },
+      {
+        "source_id": "colm_club_beneficios",
+        "url": "https://clubdebeneficios.colmena.cl/",
+        "category_hint": "Club Beneficios"
+      },
+      {
+        "source_id": "colm_bono_cero",
+        "url": "https://www.colmena.cl/convenio-bono-costo-cero/",
+        "category_hint": "Bono Costo Cero"
+      },
+      {
+        "source_id": "colm_productos_adicionales",
+        "url": "https://www.colmena.cl/productos-adicionales/",
+        "category_hint": "Productos Adicionales"
+      }
+    ]
+  },
+  {
+    "segment": "Isapres & Salud",
+    "issuer_id": "vida_tres",
+    "issuer_name": "Isapre Vida Tres",
+    "parser_strategy": "isapre_generico_v1",
+    "sources": [
+      {
+        "source_id": "vt_beneficios_home",
+        "url": "https://www.vidatres.cl/beneficios/",
+        "category_hint": "Salud General"
+      },
+      {
+        "source_id": "vt_alianza_salcobrand",
+        "url": "https://www.vidatres.cl/disfruta-los-beneficios-nuestra-nueva-alianza-farmacias-salcobrand/",
+        "category_hint": "Farmacias Salcobrand"
+      },
+      {
+        "source_id": "vt_opticas_schilling",
+        "url": "https://www.vidatres.cl/beneficios/descuentos-en-opticas-schilling/",
+        "category_hint": "Ópticas Schilling"
+      },
+      {
+        "source_id": "vt_complementos",
+        "url": "https://www.vidatres.cl/complementos/",
+        "category_hint": "Complementos"
+      },
+      {
+        "source_id": "vt_beneficios_farmacias",
+        "url": "https://www.vidatres.cl/beneficios-en-farmacias/",
+        "category_hint": "Farmacias General"
+      },
+      {
+        "source_id": "vt_productos_adicionales_pdf",
+        "url": "https://www.vidatres.cl/wp-content/uploads/2021/10/Folleto-Digital-Productos-Adicionales-Vida-Tres.pdf",
+        "category_hint": "Productos Adicionales (PDF)"
+      }
+    ]
+  },
+  {
+    "segment": "Isapres & Salud",
+    "issuer_id": "nueva_mas_vida",
+    "issuer_name": "Isapre Nueva Más Vida",
+    "parser_strategy": "isapre_generico_v1",
+    "sources": [
+      {
+        "source_id": "nmv_beneficios_home",
+        "url": "https://www.nuevamasvida.cl/beneficios",
+        "category_hint": "Salud General"
+      },
+      {
+        "source_id": "nmv_beneficios_complementarios",
+        "url": "https://www.nuevamasvida.cl/beneficios-complementarios/",
+        "category_hint": "Beneficios Complementarios"
+      },
+      {
+        "source_id": "nmv_club_beneficios",
+        "url": "https://www.nuevamasvida.cl/club-de-beneficios/",
+        "category_hint": "Club Beneficios"
+      },
+      {
+        "source_id": "nmv_beneficios_adicionales_ayuda",
+        "url": "https://www.nuevamasvida.cl/centro-de-ayuda/beneficios-adicionales/",
+        "category_hint": "Beneficios Adicionales (Ayuda)"
+      },
+      {
+        "source_id": "nmv_buscador_costo_cero",
+        "url": "https://www.nuevamasvida.cl/buscador-costo-cero/",
+        "category_hint": "Bono Costo Cero"
+      },
+      {
+        "source_id": "nmv_seguro_cesantia",
+        "url": "https://www.nuevamasvida.cl/beneficios-complementarios/seguro-de-cesantia/",
+        "category_hint": "Seguro Cesantía"
+      }
+    ]
+  },
+  {
+    "segment": "Isapres & Salud",
+    "issuer_id": "fonasa",
+    "issuer_name": "Fonasa",
+    "parser_strategy": "fonasa_v1",
+    "sources": [
+      {
+        "source_id": "fon_beneficios_home",
+        "url": "https://www.fonasa.cl/beneficios/",
+        "category_hint": "General Fonasa"
+      },
+      {
+        "source_id": "fon_redsalud",
+        "url": "https://www.redsalud.cl/informacion-para-el-paciente/fonasa-en-redsalud",
+        "category_hint": "Convenio RedSalud"
+      },
+      {
+        "source_id": "fon_andessalud",
+        "url": "https://www.andessalud.cl/beneficios-fonasa/",
+        "category_hint": "Convenio AndesSalud"
+      },
+      {
+        "source_id": "fon_integramedica",
+        "url": "https://www.integramedica.cl/planes-y-convenios/convenios/fonasa",
+        "category_hint": "Convenio Integramedica"
+      }
     ]
   }
 ]
