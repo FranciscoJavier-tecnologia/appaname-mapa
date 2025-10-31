@@ -1,74 +1,119 @@
 [
   {
+    "enabled": true,
     "segment": "Bancos & Tarjetas",
+    "country": "CL",
     "issuer_id": "banco_de_chile",
     "issuer_name": "Banco de Chile",
     "parser_strategy": "bancochile_v1",
+    "metadata": {
+      "main_url": "https://www.bancochile.cl",
+      "logo_url": "https://pbs.twimg.com/profile_images/1694746966058496010/Y48o3RBX_400x400.jpg"
+    },
     "sources": [
       {
         "source_id": "bch_beneficios_home",
         "url": "https://sitiospublicos.bancochile.cl/personas/beneficios",
-        "category_hint": "General"
+        "category_hint": "General",
+        "enabled": true,
+        "priority": 1,
+        "requires_js_render": true
       },
       {
         "source_id": "bch_alianza_skyplus",
         "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/alianza-travel-skyplus",
-        "category_hint": "Viajes"
+        "category_hint": "Viajes",
+        "enabled": true,
+        "priority": 5,
+        "requires_js_render": true
       },
       {
         "source_id": "bch_sabores",
         "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/sabores",
-        "category_hint": "Restaurantes"
+        "category_hint": "Restaurantes",
+        "enabled": true,
+        "priority": 5,
+        "requires_js_render": true
       },
       {
         "source_id": "bch_panoramas",
         "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/panoramas",
-        "category_hint": "Entretención"
+        "category_hint": "Entretención",
+        "enabled": true,
+        "priority": 5,
+        "requires_js_render": true
       },
       {
         "source_id": "bch_viajes",
         "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/viajes",
-        "category_hint": "Viajes"
+        "category_hint": "Viajes",
+        "enabled": true,
+        "priority": 5,
+        "requires_js_render": true
       },
       {
         "source_id": "bch_mascotas",
         "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/mascotas",
-        "category_hint": "Mascotas"
+        "category_hint": "Mascotas",
+        "enabled": true,
+        "priority": 5,
+        "requires_js_render": true
       },
       {
         "source_id": "bch_bienestar",
         "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/bienestar",
-        "category_hint": "Bienestar"
+        "category_hint": "Bienestar",
+        "enabled": true,
+        "priority": 5,
+        "requires_js_render": true
       },
       {
         "source_id": "bch_sustentable",
         "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/sustentable",
-        "category_hint": "Sustentable"
+        "category_hint": "Sustentable",
+        "enabled": true,
+        "priority": 5,
+        "requires_js_render": true
       },
       {
         "source_id": "bch_programa_travel",
         "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/programa-travel",
-        "category_hint": "Viajes"
+        "category_hint": "Viajes",
+        "enabled": true,
+        "priority": 5,
+        "requires_js_render": true
       },
       {
         "source_id": "bch_delivery",
         "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/delivery",
-        "category_hint": "Delivery"
+        "category_hint": "Delivery",
+        "enabled": true,
+        "priority": 5,
+        "requires_js_render": true
       },
       {
         "source_id": "bch_marcas",
         "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/marcas",
-        "category_hint": "Marcas"
+        "category_hint": "Marcas",
+        "enabled": true,
+        "priority": 5,
+        "requires_js_render": true
       },
       {
         "source_id": "bch_cuenta_fan",
         "url": "https://sitiospublicos.bancochile.cl/cuenta-fan",
-        "category_hint": "Cuenta Fan"
+        "category_hint": "Cuenta Fan",
+        "enabled": true,
+        "priority": 3,
+        "requires_js_render": true
       },
       {
         "source_id": "bch_travel_cl",
         "url": "https://www.travel.cl/",
-        "category_hint": "Viajes"
+        "category_hint": "Viajes",
+        "enabled": true,
+        "priority": 5,
+        "requires_js_render": true
       }
     ]
   }
