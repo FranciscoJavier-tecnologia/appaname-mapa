@@ -106,14 +106,6 @@
         "enabled": true,
         "priority": 3,
         "requires_js_render": true
-      },
-      {
-        "source_id": "bch_travel_cl",
-        "url": "https://www.travel.cl/",
-        "category_hint": "Viajes",
-        "enabled": true,
-        "priority": 5,
-        "requires_js_render": true
       }
     ]
   }
