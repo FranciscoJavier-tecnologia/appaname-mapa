@@ -20,14 +20,6 @@
         "requires_js_render": true
       },
       {
-        "source_id": "bch_alianza_skyplus",
-        "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/alianza-travel-skyplus",
-        "category_hint": "Viajes",
-        "enabled": true,
-        "priority": 5,
-        "requires_js_render": true
-      },
-      {
         "source_id": "bch_sabores",
         "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/sabores",
         "category_hint": "Restaurantes",
@@ -76,14 +68,6 @@
         "requires_js_render": true
       },
       {
-        "source_id": "bch_programa_travel",
-        "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/programa-travel",
-        "category_hint": "Viajes",
-        "enabled": true,
-        "priority": 5,
-        "requires_js_render": true
-      },
-      {
         "source_id": "bch_delivery",
         "url": "https://sitiospublicos.bancochile.cl/personas/beneficios/delivery",
         "category_hint": "Delivery",
@@ -97,14 +81,6 @@
         "category_hint": "Marcas",
         "enabled": true,
         "priority": 5,
-        "requires_js_render": true
-      },
-      {
-        "source_id": "bch_cuenta_fan",
-        "url": "https://sitiospublicos.bancochile.cl/cuenta-fan",
-        "category_hint": "Cuenta Fan",
-        "enabled": true,
-        "priority": 3,
         "requires_js_render": true
       }
     ]
